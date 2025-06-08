@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   
+   <meta charset="utf-8">
+   <meta name="robots" content="index, follow">
+   <!-- Add cache control meta tags -->
+   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+   <meta http-equiv="Pragma" content="no-cache">
+   <meta http-equiv="Expires" content="0">
+   <title>LERSAIS</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Research Lab, Home, Velit Aliquet Sagittis University">
+   <meta name="author" content="">
+   <link href="css/header.css" rel="stylesheet">
+   <!-- Add version parameter to CSS files to prevent caching -->
+   <link href="css/theme.css" rel="stylesheet">
+   <link href="css/bootstrap.min.css" rel="stylesheet">
+   <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+   <link href="css/bootstrap.min.css?v=<?php echo time(); ?>" rel="stylesheet">
+   <link href="css/bootstrap-responsive.min.css?v=<?php echo time(); ?>" rel="stylesheet">
+   <link href="css/theme.css?v=<?php echo time(); ?>" rel="stylesheet">
+   <style>
+      .container_news {
+         max-width: 100%;
+         margin: 0 auto;
+         padding-left: 6%;
+      }
+
+      /*for news section */
+      .column-header {
+         margin-bottom: 20px;
+         text-align: center;
+      }
+
+      .column-header h3 {
+         color: #003594;
+         /* Pitt blue */
+         font-weight: 600;
+         margin-bottom: 5px;
+      }
+
+      .header-underline {
+         height: 3px;
+         width: 60px;
+         background-color: #FFB81C;
+         /* Pitt gold */
+         margin: 0 auto 15px;
+      }
+
+      .feature-item {
+         background-color: #f9f9f9;
+         border-radius: 5px;
+         padding: 15px;
+         margin-bottom: 25px;
+         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+         transition: transform 0.3s, box-shadow 0.3s;
+         height: 450px;
+         /* Fixed height for all boxes */
+         overflow-y: auto;
+         /* Enable vertical scrolling for overflow content */
+         position: relative;
+         /* For proper positioning of elements inside */
+      }
+
+      .feature-item:hover {
+         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+         transform: none;
+         /* Remove the vertical movement on hover */
+      }
+
+      .feature-item p {
+         margin-bottom: 15px;
+         line-height: 1.5;
+      }
+
+      .feature-heading a {
+         color: #2b5797;
+         text-decoration: none;
+      }
+
+      .feature-heading a:hover {
+         color: #003594;
+      }
+
+      /* Style the scrollbar for better aesthetics */
+      .feature-item::-webkit-scrollbar {
+         width: 8px;
+      }
+
+      .feature-item::-webkit-scrollbar-track {
+         background: #f1f1f1;
+         border-radius: 4px;
+      }
+
+      .feature-item::-webkit-scrollbar-thumb {
+         background: #c6c8cd;
+         border-radius: 4px;
+      }
+
+      .feature-item::-webkit-scrollbar-thumb:hover {
+         background: #002a70;
+      }
+
+      .news-img {
+         max-width: 100%;
+         height: auto;
+         max-height: 200px;
+         /* Set maximum height for images */
+         object-fit: cover;
+         /* Maintain aspect ratio while covering area */
+         border-radius: 3px;
+         transition: opacity 0.3s;
+         display: block;
+         margin: 0 auto;
+      }
+
+      .news-img:hover {
+         opacity: 0.9;
+      }
+
+      .date {
+         background-color: #003594;
+         color: white;
+         padding: 3px 8px;
+         border-radius: 3px;
+         font-size: 12px;
+         font-weight: bold;
+      }
+
+      /* Ensure centered content works properly */
+      .centered {
+         text-align: center;
+         margin: 10px 0;
+      }
+   </style>
+</head>
+
+<body>
+
+   <div data-include="header.html" id="header-container"></div>
+
+   <div class="container">
+      <hr>
+      <div class="container-fluid">
+         <!-- ============= Enhanced Introduction Section Start ===================== -->
+         <div class="intro-section">
+            <div class="intro-background">
+               <div class="background-animation"></div>
+               <div class="security-grid">
+                  <div class="security-icon" data-delay="0.1s"></div>
+                  <div class="security-icon" data-delay="0.3s"></div>
+                  <div class="security-icon" data-delay="0.5s"></div>
+                  <div class="security-icon" data-delay="0.7s"></div>
+                  <div class="security-icon" data-delay="0.9s"></div>
+               </div>
+            </div>
+
+            <div class="container">
+               <div class="intro-header">
+                  <h2 class="fade-in">Welcome to LERSAIS!</h2>
+                  <div class="intro-underline"></div>
+               </div>
+
+               <div class="intro-highlight fade-in">
+                  <div class="intro-highlight-inner">
+                     <h4>
+                        The Laboratory of Education and Research on Security Assured Information Systems (LERSAIS) is
+                        founded by Dr. James Joshi,
+                        the Professor in the Department of Informatics and Networked Systems (DINS) at the School of
+                        Computing and Information (SCI)
+                        in the University of Pittsburgh. Prospective Students, academic researchers, business and
+                        government leaders, as well as curious
+                        browsers with an interest in information/Cyber security and privacy, will find opportunities at
+                        LERSAIS !
+
+                     </h4>
+                  </div>
+               </div>
+
+               <div class="intro-content-grid">
+                  <div class="intro-content-column fade-in" data-delay="1s">
+                     <div class="content-card">
+                        <div class="card-icon"><i class="icon-mission"></i></div>
+                        <div class="card-content">
+                           <h3>Mission</h3>
+                           <p>
+                              <em class="highlight">The Laboratory for Education and Research on Security Assured
+                                 Information Systems
+                                 (LERSAIS)</em> provides a framework for long-term goals:
+                              <br>
+                              (1) establishing a <em class="highlight">premier research
+                                 program</em> that focuses on the diverse problems related to security and survivable
+                              information
+                              systems, networks, and infrastructures.
+                              <br>
+                              (2) developing and supporting <em class="highlight">high quality
+                                 education</em> in security and information assurance.
+                           </p>
+                        </div>
+                     </div>
+
+                     <div class="content-card fade-in" data-delay="2s">
+                        <div class="card-icon"><i class="icon-award"></i></div>
+                        <div class="card-content">
+                           <h3>Recognition</h3>
+                           <p>
+                              The University of Pittsburgh has been designated as a
+                              <a href="http://www.nsa.gov/ia/academic_outreach/nat_cae/index.shtml" target="_blank"
+                                 class="highlight-link">National Center of Academic Excellence</a>
+                              in Information Assurance Education since 2004 jointly by the US National Security Agency
+                              (NSA)
+                              and the Department of Homeland Security (DHS).
+                           </p>
+                           <p>
+                              LERSAIS is Pitt's representative Center of Academic Excellence (CAE), and it has also been
+                              designated as CAE-Research.
+                              Current CAE/CAE-Research designation is valid till 2021, after which we apply for
+                              re-designation.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="intro-content-column fade-in" data-delay="3s">
+                     <div class="content-card">
+                        <div class="card-icon"><i class="icon-network"></i></div>
+                        <div class="card-content">
+                           <h3>Collaboration</h3>
+                           <p>
+                              LERSAIS as part of the <a href="http://www.sci.pitt.edu/" target="_blank"
+                                 class="highlight-link">School of Computing and Information (SCI)</a>
+                              serves as a multidisciplinary forum for the synergistic interaction among researchers
+                              within SCI as well as other experts in Information/Cyber
+                              Security and Privacy or IA-related areas outside the school.
+                           </p>
+                           <p>
+                              We invite industry and academic collaborations in all areas of security research.
+                           </p>
+                        </div>
+                     </div>
+
+                     <div class="content-card fade-in" data-delay="4s">
+                        <div class="card-icon"><i class="icon-education"></i></div>
+                        <div class="card-content">
+                           <h3>Education</h3>
+                           <p>
+                              LERSAIS affiliated faculty are engaged in cutting edge security and privacy research,
+                              and are also involved in managing the
+                              <a href="http://www.dins.pitt.edu/specializations/msis-specializations/" target="_blank"
+                                 class="highlight-link">Security Assured Information Systems (SAIS)</a>
+                              track of study at the MS level and a
+                              <a href="http://www.dins.pitt.edu/degrees/bachelor-of-science-in-information-science/"
+                                 target="_blank" class="highlight-link">Network and Security</a>
+                              concentration at the Undergraduate level – both of these currently offered within the
+                              <a href="http://www.dins.pitt.edu/" target="_blank" class="highlight-link">Department of
+                                 Informatics and Networked Systems (DINS)</a>.
+                           </p>
+                           <p>
+                              Further, DINS also offers a Certificate of Advanced Studies in SAIS.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <hr>
+         <!-- End Enhanced Introduction Section -->
+
+
+         <!-- News begin -->
+         <div class="intro-header">
+            <h2 class="fade-in">Recent News Spotlights</h2>
+            <div class="intro-underline"></div>
+            <h5>Click <a href="news">here </a> for more news!</h5>
+         </div>
+         <hr>
+         <div class="container_news">
+            <div class="row-fluid">
+               <!-- Research Column -->
+               <div class="span4">
+                  <div class="column-header">
+                     <h3>Research</h3>
+                     <div class="header-underline"></div>
+                  </div>
+
+                  <!-- First Research Item -->
+                  <div class="feature-item">
+                     <h5><span class="date">Oct. 30, 2024</span></h5>
+                     <h4 class="feature-heading">
+                        <a href="https://www.sis.pitt.edu/lersais/conference/cic/2024/index.html">
+                           The 10<sup>th</sup> IEEE International Conference on Collaboration and Internet Computing
+                        </a>
+                     </h4>
+                     <hr>
+                     <div class="centered">
+                        <img src="thumbs/cic.png" alt="CIC Conference" class="news-img">
+                     </div>
+                     <hr>
+                     <p>
+                        IEEE CIC has been conceived as the key multidisciplinary venue to serve as a premier
+                        international
+                        forum for discussion among academic and industrial researchers, practitioners, and students
+                        interested in Internet technologies, applications and services, collaborative networking,
+                        technology and
+                        systems, and applications.
+                     </p>
+                  </div>
+
+                  <!-- Second Research Item -->
+                  <div class="feature-item">
+                     <h5><span class="date">Oct. 30, 2024</span></h5>
+                     <h4 class="feature-heading">
+                        <a href="https://www.sis.pitt.edu/lersais/conference/tps/2024/index.html">
+                           The 6<sup>th</sup> IEEE Conference on Trust, Privacy and Security in Intelligent Systems
+                        </a>
+                     </h4>
+                     <hr>
+                     <div class="centered">
+                        <img src="thumbs/tps.png" alt="TPS Conference" class="news-img">
+                     </div>
+                     <hr>
+                     <p>
+                        IEEE TPS-ISA is an international multidisciplinary forum for presentation of state-of-the art
+                        innovations, and discussion among academic, industrial researchers, and practitioners on issues
+                        related to trust, privacy and security in emerging smart and intelligent systems and
+                        applications.
+                     </p>
+                  </div>
+               </div>
+
+               <!-- Education Column -->
+               <div class="span4">
+                  <div class="column-header">
+                     <h3>Education</h3>
+                     <div class="header-underline"></div>
+                  </div>
+
+                  <!-- First Education Item -->
+                  <div class="feature-item">
+                     <h5><span class="date">Jun. 27, 2023</span></h5>
+                     <h4 class="feature-heading">
+                        <a href="https://www.lersais.pitt.edu/news/lersais-faculty-run-gencyber-camp">
+                           LERSAIS Faculty Run GenCyber Camp for High School Teachers
+                        </a>
+                     </h4>
+                     <hr>
+                     <div class="centered">
+                        <img src="thumbs/teaching.png" alt="GenCyber Camp" class="news-img">
+                     </div>
+                     <hr>
+                     <p>
+                        Professor James Joshi and LERSAIS faculty hosted a GenCyber Camp for high school teachers,
+                        providing essential cybersecurity education resources and training. The camp focused on
+                        integrating cybersecurity concepts into various high school curricula and equipping teachers
+                        with tools to inspire the next generation of cybersecurity professionals.
+                     </p>
+                  </div>
+
+                  <!-- Second Education Item -->
+                  <div class="feature-item">
+                     <h5><span class="date">Oct. 30, 2024</span></h5>
+                     <h4 class="feature-heading">
+                        <a href="https://www.sis.pitt.edu/lersais/conference/cogmi/2024/index.html">
+                           The 6<sup>th</sup> IEEE Conference on Cognitive Machine Intelligence
+                        </a>
+                     </h4>
+                     <hr>
+                     <div class="centered">
+                        <img src="thumbs/cogmi.png" alt="CogMI Conference" class="news-img">
+                     </div>
+                     <hr>
+                     <p>
+                        The cognitive machine intelligence (CogMI) is creating unprecedented opportunities for impactful
+                        scientific innovations and societal transformations by significantly augmenting the human
+                        ability
+                        for problem solving and rapid decision making in terms of speed, precision and variety, while
+                        fostering innovations in all our human endeavors.
+                     </p>
+                  </div>
+               </div>
+
+               <!-- Seminars Column -->
+               <div class="span4">
+                  <div class="column-header">
+                     <h3>Seminars</h3>
+                     <div class="header-underline"></div>
+                  </div>
+
+                  <!-- First Seminar Item -->
+                  <div class="feature-item">
+                     <h5><span class="date">Mar. 13, 2025</span></h5>
+                     <h4 class="feature-heading">
+                        <a href="https://www.lersais.pitt.edu/distinguished-lersais-seminar-series">
+                           Distinguished LERSAIS and Pitt Cyber Seminar
+                        </a>
+                     </h4>
+                     <hr>
+                     <div class="centered">
+                        <img src="images/ravi.jpg" alt="LERSAIS Seminar" class="news-img">
+                     </div>
+                     <hr>
+                     <p>
+                        Conducting secure privacy-preserving federated learning (PPFL) experiments that leverage
+                        large-scale, high-performance computational resources across distributed sites often demands
+                        technical capabilities beyond the reach of many organizations. To lower the barrier to entry for
+                        PPFL and empower domain experts in large institutions to utilize federated learning (FL), we
+                        developed Advanced Privacy-Preserving Federated Learning as a Service (APPFLx). APPFLx
+                        simplifies cross-silo PPFL through an intuitive web interface for managing, deploying,
+                        analyzing, and visualizing FL experiments.
+                     </p>
+                  </div>
+
+                  <!-- Second Seminar Item -->
+                  <div class="feature-item">
+                     <h5><span class="date">Oct. 10, 2024</span></h5>
+                     <h4 class="feature-heading">
+                        <a href="https://www.lersais.pitt.edu/distinguished-lersais-seminar-series">
+                           Distinguished LERSAIS and Pitt Cyber Seminar
+                        </a>
+                     </h4>
+                     <hr>
+                     <div class="centered">
+                        <img src="thumbs/elisa.jpg" alt="LERSAIS Seminar" class="news-img">
+                     </div>
+                     <hr>
+                     <p>
+                        Cellular network security is more critical than ever, given the increased complexity of these
+                        networks and the numbers of applications that depend on them, including telehealth, remote
+                        education, ubiquitous robotics and autonomous vehicles, smart cities, and Industry 4.0.
+                     </p>
+                  </div>
+                  <!-- <div class="feature-item">
+                     <h5><span class="date">Mar. 28, 2024</span></h5>
+                     <h4 class="feature-heading">
+                        <a href="https://www.lersais.pitt.edu/news/james-joshi-delivers-keynote-tdk-corporation-tokyo">
+                           James Joshi Delivers Keynote at TDK Corporation, Tokyo
+                        </a>
+                     </h4>
+                     <hr>
+                     <div class="centered">
+                        <img src="thumbs/joshi.jpg" alt="James Joshi Keynote" class="news-img">
+                     </div>
+                     <hr>
+                     <p>
+                        Professor James Joshi was invited as the Keynote Speaker at the TDK Corporation's Kick Off
+                        Meeting initiating the new mid-term plan for 2024. TDK is a global electronics component
+                        manufacturer with over 100,000 employees in more than 30 countries. Prof. Joshi's keynote
+                        was attended by TDK corporate leaders and management teams.
+                     </p>
+                  </div> -->
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+   <div data-include="footer.html"></div>
+   <!-- Add component loader scripts -->
+   <script src="js/include-header.js"></script>
+   <script src="js/carousel.js"></script>
+
+</body>
+
+</html>
