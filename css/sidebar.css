@@ -6,7 +6,7 @@
    background: #ffffff;
    overflow: hidden;
    width: 100%;
-   transition: all 0.3s ease;
+   /* transition: all 0.3s ease; */
 }
 
 /* 侧边栏标题 */
