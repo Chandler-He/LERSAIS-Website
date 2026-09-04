@@ -1,0 +1,68 @@
+[
+  {
+    "title": "Distinguished LERSAIS and Pitt Cyber Seminar",
+    "url": "https://www.lersais.pitt.edu/distinguished-lersais-seminar-series",
+    "date": "Mar. 13, 2025",
+    "image": "images/ravi.jpg",
+    "body": "Conducting secure privacy-preserving federated learning (PPFL) experiments that leverage large-scale, high-performance computational resources across distributed sites often demands technical capabilities beyond the reach of many organizations. To lower the barrier to entry for PPFL and empower domain experts in large institutions to utilize federated learning (FL), we developed Advanced Privacy-Preserving Federated Learning as a Service (APPFLx). APPFLx simplifies cross-silo PPFL through an intuitive web interface for managing, deploying, analyzing, and visualizing FL experiments.",
+    "id": "federated-learning-2025",
+    "category": "seminar",
+    "iso_date": "2025-03-13",
+    "headline": "Privacy-preserving federated learning"
+  },
+  {
+    "title": "The 10 th IEEE International Conference on Collaboration and Internet Computing",
+    "url": "https://www.sis.pitt.edu/lersais/conference/cic/2024/index.html",
+    "date": "Oct. 30, 2024",
+    "image": "thumbs/cic.png",
+    "body": "IEEE CIC has been conceived as the key multidisciplinary venue to serve as a premier international forum for discussion among academic and industrial researchers, practitioners, and students interested in Internet technologies, applications and services, collaborative networking, technology and systems, and applications.",
+    "id": "cic-2024",
+    "category": "conference",
+    "iso_date": "2024-10-30",
+    "headline": "IEEE Collaboration and Internet Computing"
+  },
+  {
+    "title": "The 6 th IEEE Conference on Trust, Privacy and Security in Intelligent Systems",
+    "url": "https://www.sis.pitt.edu/lersais/conference/tps/2024/index.html",
+    "date": "Oct. 30, 2024",
+    "image": "thumbs/tps.png",
+    "body": "IEEE TPS-ISA is an international multidisciplinary forum for presentation of state-of-the art innovations, and discussion among academic, industrial researchers, and practitioners on issues related to trust, privacy and security in emerging smart and intelligent systems and applications.",
+    "id": "tps-2024",
+    "category": "conference",
+    "iso_date": "2024-10-30",
+    "headline": "Trust, Privacy and Security in Intelligent Systems"
+  },
+  {
+    "title": "The 6 th IEEE Conference on Cognitive Machine Intelligence",
+    "url": "https://www.sis.pitt.edu/lersais/conference/cogmi/2024/index.html",
+    "date": "Oct. 30, 2024",
+    "image": "thumbs/cogmi.png",
+    "body": "The cognitive machine intelligence (CogMI) is creating unprecedented opportunities for impactful scientific innovations and societal transformations by significantly augmenting the human ability for problem solving and rapid decision making in terms of speed, precision and variety, while fostering innovations in all our human endeavors.",
+    "id": "cogmi-2024",
+    "category": "conference",
+    "iso_date": "2024-10-30",
+    "headline": "IEEE Cognitive Machine Intelligence"
+  },
+  {
+    "title": "Distinguished LERSAIS and Pitt Cyber Seminar",
+    "url": "https://www.lersais.pitt.edu/distinguished-lersais-seminar-series",
+    "date": "Oct. 10, 2024",
+    "image": "thumbs/elisa.jpg",
+    "body": "Cellular network security is more critical than ever, given the increased complexity of these networks and the numbers of applications that depend on them, including telehealth, remote education, ubiquitous robotics and autonomous vehicles, smart cities, and Industry 4.0.",
+    "id": "cellular-security-2024",
+    "category": "seminar",
+    "iso_date": "2024-10-10",
+    "headline": "The future of cellular network security"
+  },
+  {
+    "title": "LERSAIS Faculty Run GenCyber Camp for High School Teachers",
+    "url": "https://www.lersais.pitt.edu/news/lersais-faculty-run-gencyber-camp",
+    "date": "Jun. 27, 2023",
+    "image": "thumbs/teaching.png",
+    "body": "Professor James Joshi and LERSAIS faculty hosted a GenCyber Camp for high school teachers, providing essential cybersecurity education resources and training. The camp focused on integrating cybersecurity concepts into various high school curricula and equipping teachers with tools to inspire the next generation of cybersecurity professionals.",
+    "id": "gencyber-2023",
+    "category": "education",
+    "iso_date": "2023-06-27",
+    "headline": "Cybersecurity education, beyond the lab"
+  }
+]

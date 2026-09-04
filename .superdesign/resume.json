@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "targets": {
+    "/": {
+      "targetKind": "existing-ui",
+      "projectId": "8ad28290-9b19-42bf-9171-94bd40dec506",
+      "activeDraftId": "a0ab9103-fc95-43ed-906f-067278c51351",
+      "designSystemPath": ".superdesign/design-system.md",
+      "contextFiles": [
+        ".superdesign/design-system.md",
+        "index.html",
+        "css/site.css",
+        "js/site.js",
+        "scripts/build_site.py"
+      ],
+      "fingerprints": {
+        ".superdesign/design-system.md": "06de5e46f4726de9a39708ce970c871741708cb4e06c1cb0addd4c70bd49ba53",
+        "index.html": "5b0e8f17540de4c1cc4fb72cdd09551e3efce0ea806488688d4902565ed39eb6",
+        "css/site.css": "6554ff63479b5bb32a9f2dd64555cd127bafc5173e82f5b69df495a0d38808bf",
+        "js/site.js": "6907f8f4698c9508dea5d09074618200b8e185a849903b13ea48e561da102398",
+        "scripts/build_site.py": "874d0f4bcbe9693b65b0ed9e0fc85d6bf56293fc8c4af521e3a8fb9bacd454bb"
+      },
+      "drafts": {
+        "a0ab9103-fc95-43ed-906f-067278c51351": {
+          "title": "LERSAIS \u2014 White canvas & local search",
+          "visualDirection": "True white, no background images, OpenAI-inspired typography, local keyword search",
+          "currentVersion": 2
+        }
+      },
+      "updatedAt": "2026-09-04T00:05:57.949365+00:00"
+    }
+  }
+}

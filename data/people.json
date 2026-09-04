@@ -1,0 +1,771 @@
+[
+  {
+    "name": "James Joshi",
+    "group": "faculty",
+    "image": "thumbs/joshi.png",
+    "links": [
+      {
+        "text": "jjoshi@pitt.edu",
+        "href": "mailto:jjoshi@pitt.edu"
+      },
+      {
+        "text": "https://www.sis.pitt.edu/jjoshi/",
+        "href": "https://www.sis.pitt.edu/jjoshi/"
+      },
+      {
+        "text": "Google Scholar",
+        "href": "https://scholar.google.com/citations?user=veOn_3UAAAAJ&hl=en"
+      }
+    ],
+    "id": "james-joshi",
+    "role": "Founder & Director",
+    "summary": "Access control, privacy in machine learning, and security in cloud, edge, and IoT systems.",
+    "bio": [
+      "<p>Professor in the Department of Informatics and Networked Systems, University of Pittsburgh, founder and director of LERSAIS</p>",
+      "<p>IEEE Fellow, AAAS Fellow, AAIA Fellow, ACM Distinguished Member, SIRI Fellow, Former Program Director at NSF</p>",
+      "<p><b>Research Interests:</b> Attribute-based Acess Control, Privacy in ML/AI; Security and Privacy in IoT/Cloud/Edge Environment; Insider Threat</p>",
+      "<p><b>Email: </b><a href=\"mailto:jjoshi@pitt.edu\">jjoshi@pitt.edu</a></p>",
+      "<p><b>Personal Website: </b><a href=\"https://www.sis.pitt.edu/jjoshi/\" rel=\"noopener noreferrer\" target=\"_blank\">https://www.sis.pitt.edu/jjoshi/</a></p>",
+      "<p><b>Address: </b>IS Building, Room 706A, 135 North Bellefield Ave., Pittsburgh, PA, USA</p>",
+      "<p><b><a href=\"https://scholar.google.com/citations?user=veOn_3UAAAAJ&amp;hl=en\" rel=\"noopener noreferrer\" target=\"_blank\">Google Scholar</a></b></p>"
+    ]
+  },
+  {
+    "name": "Balaji Palanisamy",
+    "group": "faculty",
+    "image": "images/balaji.jpg",
+    "links": [
+      {
+        "text": "bpalan@pitt.edu",
+        "href": "mailto:bpalan@pitt.edu"
+      },
+      {
+        "text": "CV",
+        "href": "https://www.sis.pitt.edu/bpalan/"
+      },
+      {
+        "text": "Google\n                                 Scholar",
+        "href": "https://scholar.google.com/citations?user=aA2WomkAAAAJ&hl=en"
+      }
+    ],
+    "id": "balaji-palanisamy",
+    "role": "Co-Director",
+    "summary": "Distributed systems, data privacy, blockchains, and privacy-conscious computing.",
+    "bio": [
+      "<p>I am an Associate Professor in the School of Computing and Information at the University of Pittsburgh. My research broadly spans the areas of Distributed Systems and Data Privacy. At Pitt, I am the Co-Director and I carry out research in the Laboratory for Education and Research on Security Assured Information Systems (LERSAIS). I am also an Affiliate Scholar at the Institute for Cyber Law, Policy, and Security. Prior to joining the University of Pittsburgh, I received my Ph. D. degree in Computer Science from Georgia Institute of Technology.</p>",
+      "<p>My research interest lies in the areas of Blockchains, Data Privacy, Privacy-aware Computing, Distributed Computer Systems, Edge Computing and Cloud Computing. I am especially interested in tackling problems related to scalable and privacy-conscious computing and data sharing in untrusted and outsourced computing environments.</p>",
+      "<p><b>Email: </b><a href=\"mailto:bpalan@pitt.edu\">bpalan@pitt.edu</a></p>",
+      "<p><b>Address: </b>Information Science Building, Room 704</p>",
+      "<p><b><a href=\"https://www.sis.pitt.edu/bpalan/\">CV</a>, <a href=\"https://scholar.google.com/citations?user=aA2WomkAAAAJ&amp;hl=en\">Google Scholar</a></b></p>"
+    ]
+  },
+  {
+    "name": "Ahmed Ibrahim",
+    "group": "faculty",
+    "image": "images/ahmed.png",
+    "links": [
+      {
+        "text": "aibrahim@pitt.edu",
+        "href": "mailto:aibrahim@pitt.edu"
+      },
+      {
+        "text": "https://www.ahmed.ai/",
+        "href": "https://www.ahmed.ai/"
+      }
+    ],
+    "id": "ahmed-ibrahim",
+    "role": "Education & Outreach",
+    "summary": "Security and privacy, secure health information exchange, and cybersecurity education.",
+    "bio": [
+      "<p>Ahmed is a Teaching Associate Professor in the Department of Informatics and Networked Systems and LERSAIS Associate Director for Education and Outreach. Ahmed's research interests are in the area of security and privacy. He conducted research on e-voting security for the Egyptian parliamentary elections, which involved designing a protocol that allows for voter privacy while remaining verifiable. Ahmed is currently researching secure health information exchange by providing healthcare organizations the capability of mutual authentication and patient authentication and ensuring the privacy, integrity, and auditability of exchanged medical information. Ahmed's future research directions include: e-voting in the era of cyber threats, Red and Blue Teams automation, securing IoT and SOHO devices, developing criteria for usable and effective interactive cybersecurity content.</p>",
+      "<p><b>Email: </b><a href=\"mailto:aibrahim@pitt.edu\">aibrahim@pitt.edu</a></p>",
+      "<p><b>Personal Website: </b><a href=\"https://www.ahmed.ai/\" rel=\"noopener noreferrer\" target=\"_blank\">https://www.ahmed.ai/</a></p>",
+      "<p><b>Address: </b>IS Building, Room 622, 135 North Bellefield Ave., Pittsburgh, PA, USA</p>"
+    ]
+  },
+  {
+    "name": "Mai Abdelhakim",
+    "group": "faculty",
+    "image": "images/mai.png",
+    "links": [
+      {
+        "text": "MAIA@pitt.edu",
+        "href": "mailto:MAIA@pitt.edu"
+      },
+      {
+        "text": "CV",
+        "href": "https://www.engineering.pitt.edu/subsites/faculty/abdelhakim/about/"
+      },
+      {
+        "text": "Google Scholar",
+        "href": "https://scholar.google.com/citations?user=eJoj4oQAAAAJ&hl=en"
+      }
+    ],
+    "id": "mai-abdelhakim",
+    "role": "Associate Professor, Electrical & Computer Engineering",
+    "summary": "Electrical and computer engineering research at the University of Pittsburgh.",
+    "bio": [
+      "<p>Dr. Mai Abdelhakim is an associate professor of electrical and computer engineering at the University of Pittsburgh. </p>",
+      "<p>She is currently a senior member of the IEEE. She received the University of Pittsburgh’s Innovation in Education award in 2023. Dr. Abdelhakim has been Associate Editor of IET Communications since January 2023.</p>",
+      "<p><b>Email: </b><a href=\"mailto:MAIA@pitt.edu\">MAIA@pitt.edu</a></p>",
+      "<p><b>Address: </b>1230 Benedum Hall</p>",
+      "<p><b><a href=\"https://www.engineering.pitt.edu/subsites/faculty/abdelhakim/about/\">CV</a>, <a href=\"https://scholar.google.com/citations?user=eJoj4oQAAAAJ&amp;hl=en\" rel=\"noopener noreferrer\" target=\"_blank\">Google Scholar</a>, </b></p>"
+    ]
+  },
+  {
+    "name": "Amy Babay",
+    "group": "faculty",
+    "image": "images/amy.jpg",
+    "links": [
+      {
+        "text": "babay@pitt.edu",
+        "href": "mailto:babay@pitt.edu"
+      },
+      {
+        "text": "CV",
+        "href": "https://sites.pitt.edu/~babay/"
+      },
+      {
+        "text": "Google\n                                 Scholar",
+        "href": "https://scholar.google.com/citations?user=oe8ReQUAAAAJ&hl=en"
+      }
+    ],
+    "id": "amy-babay",
+    "role": "Assistant Professor, Computing & Information",
+    "summary": "Research and teaching in the School of Computing and Information.",
+    "bio": [
+      "<p>Assistant Professor in the University of Pittsburgh School of Computing and Information.</p>",
+      "<p>Looking for PhD, masters, and/or undergrad students interested in distributed systems and networks in general, and next-generation Internet services, resilient critical infrastructure, and resilient communities in particular. If you think the kind of work I do is interesting, feel free to send me an email!F</p>",
+      "<p><b>Email: </b><a href=\"mailto:babay@pitt.edu\">babay@pitt.edu</a></p>",
+      "<p><b>Address: </b>701B, Information Sciences Building, 135 N Bellefield Ave Pittsburgh, PA 15213</p>",
+      "<p><b><a href=\"https://sites.pitt.edu/~babay/\">CV</a>, <a href=\"https://scholar.google.com/citations?user=oe8ReQUAAAAJ&amp;hl=en\">Google Scholar</a></b></p>"
+    ]
+  },
+  {
+    "name": "Daniel Cole",
+    "group": "faculty",
+    "image": "images/cole.jpeg",
+    "links": [
+      {
+        "text": "dgcole@pitt.edu",
+        "href": "mailto:dgcole@pitt.edu"
+      },
+      {
+        "text": "CV",
+        "href": "https://www.engineering.pitt.edu/people/faculty/daniel-cole/"
+      },
+      {
+        "text": "Google\n                                 Scholar",
+        "href": "https://scholar.google.com/citations?user=kqOjP18AAAAJ&hl=en"
+      }
+    ],
+    "id": "daniel-cole",
+    "role": "Associate Professor, Swanson School of Engineering",
+    "summary": "Engineering research and leadership of the nuclear engineering program.",
+    "bio": [
+      "<p>Associate Professor, Swanson School of Engineering; Director of Stephen R. Tritch Nuclear Engineering Program</p>",
+      "<p><b>Email: </b><a href=\"mailto:dgcole@pitt.edu\">dgcole@pitt.edu</a></p>",
+      "<p><b><a href=\"https://www.engineering.pitt.edu/people/faculty/daniel-cole/\">CV</a>, <a href=\"https://scholar.google.com/citations?user=kqOjP18AAAAJ&amp;hl=en\">Google Scholar</a></b></p>"
+    ]
+  },
+  {
+    "name": "Na Du",
+    "group": "faculty",
+    "image": "images/nadu.jpeg",
+    "links": [
+      {
+        "text": "na.du@pitt.edu",
+        "href": "mailto:na.du@pitt.edu"
+      },
+      {
+        "text": "CV",
+        "href": "https://nadu-pitt.github.io/"
+      },
+      {
+        "text": "Google\n                                 Scholar",
+        "href": "https://scholar.google.com/citations?hl=en&user=MaiIv1cAAAAJ&view_op=list_works"
+      }
+    ],
+    "id": "na-du",
+    "role": "Assistant Professor, Computing & Information",
+    "summary": "Research and teaching in the School of Computing and Information.",
+    "bio": [
+      "<p>Assistant Professor in the University of Pittsburgh School of Computing and Information.</p>",
+      "<p><b>Email: </b><a href=\"mailto:na.du@pitt.edu\">na.du@pitt.edu</a></p>",
+      "<p><b><a href=\"https://nadu-pitt.github.io/\">CV</a>, <a href=\"https://scholar.google.com/citations?hl=en&amp;user=MaiIv1cAAAAJ&amp;view_op=list_works\">Google Scholar</a></b></p>"
+    ]
+  },
+  {
+    "name": "Prashant V. Krishnamurthy",
+    "group": "faculty",
+    "image": "images/pk.jpeg",
+    "links": [
+      {
+        "text": "prashk@pitt.edu",
+        "href": "mailto:prashk@pitt.edu"
+      },
+      {
+        "text": "CV",
+        "href": "https://sites.pitt.edu/~prashk/"
+      },
+      {
+        "text": "Google Scholar",
+        "href": "https://scholar.google.com/citations?user=F9qypa0AAAAJ&hl=en"
+      }
+    ],
+    "id": "prashant-v-krishnamurthy",
+    "role": "Professor, Informatics & Networked Systems",
+    "summary": "Wireless networks, information security, quantum networks, and technology governance.",
+    "bio": [
+      "<p>I am a professor in the Department of Informatics and Networked Systems in the School of Computing and Information at Pitt. I was the former chair of the department. I have a wide range of research interests - wireless networks, information security, and quantum networks. I am also interested in technology governance and network science. I teach courses in communication networks, wireless networks and cryptography. </p>",
+      "<p><b>Email: </b><a href=\"mailto:prashk@pitt.edu\">prashk@pitt.edu</a></p>",
+      "<p><b>Address: </b>Information Science Building, Room 701 A</p>",
+      "<p><b><a href=\"https://sites.pitt.edu/~prashk/\">CV</a>, <a href=\"https://scholar.google.com/citations?user=F9qypa0AAAAJ&amp;hl=en\" rel=\"noopener noreferrer\" target=\"_blank\">Google Scholar</a></b></p>"
+    ]
+  },
+  {
+    "name": "Stephen Lee",
+    "group": "faculty",
+    "image": "images/lee.jpg",
+    "links": [
+      {
+        "text": "stephen.lee@pitt.edu",
+        "href": "mailto:stephen.lee@pitt.edu"
+      },
+      {
+        "text": "CV",
+        "href": "https://people.cs.pitt.edu/~stl86/docs/cv.pdf"
+      },
+      {
+        "text": "Google Scholar",
+        "href": "https://scholar.google.com/citations?user=qsjlH3AAAAAJ"
+      }
+    ],
+    "id": "stephen-lee",
+    "role": "Assistant Professor, Computer Science",
+    "summary": "Computer science research at the University of Pittsburgh.",
+    "bio": [
+      "<p>I am an Assistant Professor in the Department of Computer Science at the University of Pittsburgh. I received my Ph.D. from the University of Massachusetts Amherst, where I was advised by Prof. Prashant Shenoy. Before joining UMass, I was a research associate at Tata Research Development and Design Center. I completed my Masters from Chennai Mathematical Institute and my Bachelors from St. Stephens College, Delhi.</p>",
+      "<p><b>Email: </b><a href=\"mailto:stephen.lee@pitt.edu\">stephen.lee@pitt.edu</a></p>",
+      "<p><b>Address: </b>6113 SENSQ Department of CS</p>",
+      "<p><b><a href=\"https://people.cs.pitt.edu/~stl86/docs/cv.pdf\">CV</a>, <a href=\"https://scholar.google.com/citations?user=qsjlH3AAAAAJ\">Google Scholar</a></b> </p>"
+    ]
+  },
+  {
+    "name": "Konstantinos Pelechrinis",
+    "group": "faculty",
+    "image": "images/kpelechrinis.jpg",
+    "links": [
+      {
+        "text": "kpele@pitt.edu",
+        "href": "mailto:kpele@pitt.edu"
+      },
+      {
+        "text": "CV",
+        "href": "https://sites.pitt.edu/~kpele/"
+      },
+      {
+        "text": "Google Scholar",
+        "href": "https://scholar.google.com/citations?user=mVj8o7gAAAAJ&hl=en"
+      }
+    ],
+    "id": "konstantinos-pelechrinis",
+    "role": "Associate Professor, Computing & Information",
+    "summary": "Network science and network data research.",
+    "bio": [
+      "<p>My name is Konstantinos Pelechrinis and I joined the University of Pittsburgh in Fall 2010, where I am an Associate Professor at the School of Computing and Information and I lead the Network Data Science Lab. Prior I received my Phd degree from the Computer Science department at the University of California at Riverside, under the supervision of Prof. Srikanth V. Krishnamurthy. Before joining UCR, I obtained my Diploma degree from the Electrical and Computer Engineering department of the National Techincal University of Athens, where I worked with Prof. Vasileios Maglaris at the Network Management and Optimal Design Laboratory. </p>",
+      "<p><b>Email: </b><a href=\"mailto:kpele@pitt.edu\">kpele@pitt.edu</a></p>",
+      "<p><b>Address: </b>Information Science Building, Room 717B</p>",
+      "<p><b><a href=\"https://sites.pitt.edu/~kpele/\">CV</a>, <a href=\"https://scholar.google.com/citations?user=mVj8o7gAAAAJ&amp;hl=en\" rel=\"noopener noreferrer\" target=\"_blank\">Google Scholar</a></b></p>"
+    ]
+  },
+  {
+    "name": "M. Amin Rahimian",
+    "group": "faculty",
+    "image": "images/amin.jpeg",
+    "links": [
+      {
+        "text": "RAHIMIAN@pitt.edu",
+        "href": "mailto:RAHIMIAN@pitt.edu"
+      },
+      {
+        "text": "CV",
+        "href": "https://aminrahimian.github.io/"
+      },
+      {
+        "text": "Google Scholar",
+        "href": "https://scholar.google.com/citations?user=t5TdzpwAAAAJ&hl=en"
+      }
+    ],
+    "id": "m-amin-rahimian",
+    "role": "Assistant Professor, Industrial Engineering",
+    "summary": "Networks, data, and decision sciences in sociotechnical systems.",
+    "bio": [
+      "<p>Dr. Rahimian is an assistant professor of Industrial Engineering at the University of Pittsburgh, where he leads the Sociotechnical Systems Research Lab and is also affiliated with the Intelligent Systems Program (ISP) and the Institute for Cyber Law, Policy, and Security (Pitt Cyber). Prior to that, he was a postdoc with joint appointments at MIT Institute for Data, Systems, and Society (IDSS) and MIT Sloan School of Management. </p>",
+      "<p>He received his PhD in Electrical and Systems Engineering from the University of Pennsylvania, and Master’s in Statistics from Wharton School. Broadly speaking his works are at the intersection of networks, data, and decision sciences. He borrows tools from applied probability, statistics, algorithms, as well as decision and game theory.</p>",
+      "<p><b>Email: </b><a href=\"mailto:RAHIMIAN@pitt.edu\">RAHIMIAN@pitt.edu</a></p>",
+      "<p><b>Address: </b>1003 Benedum Hall, Pittsburgh, PA 15261</p>",
+      "<p><b><a href=\"https://aminrahimian.github.io/\">CV</a>, <a href=\"https://scholar.google.com/citations?user=t5TdzpwAAAAJ&amp;hl=en\" rel=\"noopener noreferrer\" target=\"_blank\">Google Scholar</a></b></p>"
+    ]
+  },
+  {
+    "name": "David Tipper",
+    "group": "faculty",
+    "image": "images/tipper.jpg",
+    "links": [
+      {
+        "text": "dtipper@pitt.edu",
+        "href": "mailto:dtipper@pitt.edu"
+      },
+      {
+        "text": "CV",
+        "href": "https://www.sci.pitt.edu/people/david-tipper"
+      },
+      {
+        "text": "Google\n                                 Scholar",
+        "href": "https://scholar.google.com/citations?user=XD9kMgEAAAAJ&hl=en"
+      }
+    ],
+    "id": "david-tipper",
+    "role": "Professor, Telecommunications & Networking",
+    "summary": "Telecommunications, networking, and electrical engineering.",
+    "bio": [
+      "<p>David Tipper is a professor at the School of Information Sciences at the University of Pittsburgh where he is also the director of SIS’ graduate Telecommunications &amp; Networking Program. Tipper has a secondary appointment at Pitt’s Department of Electrical Engineering. He is a graduate of the University of Arizona (PhD Electrical Engineering, MS Systems Engineering) and Virginia Tech (BS in Electrical Engineering).</p>",
+      "<p><b>Email: </b><a href=\"mailto:dtipper@pitt.edu\">dtipper@pitt.edu</a></p>",
+      "<p><b>Address: </b>Information Science Building, Room 715</p>",
+      "<p><b><a href=\"https://www.sci.pitt.edu/people/david-tipper\">CV</a>, <a href=\"https://scholar.google.com/citations?user=XD9kMgEAAAAJ&amp;hl=en\">Google Scholar</a></b></p>"
+    ]
+  },
+  {
+    "name": "Shandong Wu",
+    "group": "faculty",
+    "image": "images/wu.png",
+    "links": [
+      {
+        "text": "wus3@upmc.edu",
+        "href": "mailto:wus3@upmc.edu"
+      },
+      {
+        "text": "CV",
+        "href": "https://www.sci.pitt.edu/people/shandong-wu"
+      },
+      {
+        "text": "Google Scholar",
+        "href": "https://scholar.google.com/citations?user=24TkjAkAAAAJ&hl=en"
+      }
+    ],
+    "id": "shandong-wu",
+    "role": "Associate Professor, Radiology & Biomedical Informatics",
+    "summary": "Intelligent computing for clinical imaging and biomedical informatics.",
+    "bio": [
+      "<p>Associate Professor in Radiology, Biomedical Informatics, Bioengineering, Intelligent Systems, Clinical and Translational Science Director, Intelligent Computing for Clinical Imaging (ICCI) Lab Technical Director for AI Innovations in Radiology</p>",
+      "<p><b>Email: </b><a href=\"mailto:wus3@upmc.edu\">wus3@upmc.edu</a></p>",
+      "<p><b>Address: </b>Room 322, 3240 Craft Place Pittsburgh, PA 15213</p>",
+      "<p><b><a href=\"https://www.sci.pitt.edu/people/shandong-wu\">CV</a>, <a href=\"https://scholar.google.com/citations?user=24TkjAkAAAAJ&amp;hl=en\" rel=\"noopener noreferrer\" target=\"_blank\">Google Scholar</a></b></p>"
+    ]
+  },
+  {
+    "name": "Vladimir Zadorozhny",
+    "group": "faculty",
+    "image": "images/zadorozhny.jpg",
+    "links": [
+      {
+        "text": "viz@pitt.edu",
+        "href": "mailto:viz@pitt.edu"
+      },
+      {
+        "text": "CV",
+        "href": "https://sites.pitt.edu/~viz//"
+      },
+      {
+        "text": "Google Scholar",
+        "href": "https://scholar.google.com/citations?user=fv1GAB8AAAAJ&hl=en"
+      }
+    ],
+    "id": "vladimir-zadorozhny",
+    "role": "Professor, Informatics & Networked Systems",
+    "summary": "Information systems, data, and biomedical informatics.",
+    "bio": [
+      "<p>Vladimir Zadorozhny is a Professor in DINS and also a Core Faculty Member at the University of Pittsburgh Biomedical Informatics Training Program and Adjunct Professor at Faculty of Engineering and Science of the University of Agder. He received his Ph.D. in 1993 from the Institute for Problems of Informatics, Russian Academy of Sciences in Moscow.</p>",
+      "<p><b>Email: </b><a href=\"mailto:viz@pitt.edu\">viz@pitt.edu</a></p>",
+      "<p><b>Address: </b>Information Science Building, Room 706 B</p>",
+      "<p><b><a href=\"https://sites.pitt.edu/~viz//\">CV</a>, <a href=\"https://scholar.google.com/citations?user=fv1GAB8AAAAJ&amp;hl=en\" rel=\"noopener noreferrer\" target=\"_blank\">Google Scholar</a></b></p>"
+    ]
+  },
+  {
+    "name": "Jingzhe Wang",
+    "group": "students",
+    "image": "images/WechatIMG458.jpg",
+    "links": [
+      {
+        "text": "jiw148@pitt.edu",
+        "href": "mailto:jiw148@pitt.edu"
+      }
+    ],
+    "id": "jingzhe-wang",
+    "role": "Ph.D. student",
+    "summary": "Distributed systems, cloud computing, and research with Balaji Palanisamy.",
+    "bio": [
+      "<p>Jingzhe is a 6<sup>th</sup> year Ph.D. Candidate in Information Science, advisor: Dr. Balaji Palanisamy. His research interests include, but are not limited to: Distributed System, Information Security &amp; Privacy, Blockchain.</p>",
+      "<p><b>Email: </b><a href=\"mailto:jiw148@pitt.edu\">jiw148@pitt.edu</a></p>",
+      "<p><b>Address: </b>IS Building, Room 410, 135 North Bellefield Ave., Pittsburgh, PA, USA</p>"
+    ]
+  },
+  {
+    "name": "Abdulrahman Alhaidari",
+    "group": "students",
+    "image": "images/Abdulrahman.png",
+    "links": [
+      {
+        "text": "aba70@pitt.edu",
+        "href": "mailto:aba70@pitt.edu"
+      },
+      {
+        "text": "Google Scholar",
+        "href": "https://scholar.google.com/citations?user=LnaoAaQAAAAJ&hl=en&oi=ao"
+      }
+    ],
+    "id": "abdulrahman-alhaidari",
+    "role": "Ph.D. student",
+    "summary": "Metaverse, digital twins, and research with Balaji Palanisamy.",
+    "bio": [
+      "<p>Abdulrahman is a 4<sup>th</sup> year Ph.D. Student in Information Science, advisor: Dr. Balaji Palanisamy. His research interests include, but are not limited to: Metaverse &amp; Digital Twins, Data Security, Blockchain, Integer Factorization.</p>",
+      "<p><b>Email: </b><a href=\"mailto:aba70@pitt.edu\">aba70@pitt.edu</a></p>",
+      "<p><b>Address: </b>IS Building, Room 410, 135 North Bellefield Ave., Pittsburgh, PA, USA</p>",
+      "<p><b> <a href=\"https://scholar.google.com/citations?user=LnaoAaQAAAAJ&amp;hl=en&amp;oi=ao\" rel=\"noopener noreferrer\" target=\"_blank\">Google Scholar</a></b></p>"
+    ]
+  },
+  {
+    "name": "Ying Song",
+    "group": "students",
+    "image": "images/songying.png",
+    "links": [
+      {
+        "text": "yis121@pitt.edu",
+        "href": "mailto:yis121@pitt.edu"
+      },
+      {
+        "text": "Google Scholar",
+        "href": "https://scholar.google.com/citations?user=zYtXExoAAAAJ&hl=en"
+      }
+    ],
+    "id": "ying-song",
+    "role": "Ph.D. student",
+    "summary": "Data privacy and research with Balaji Palanisamy.",
+    "bio": [
+      "<p>Ying is a 4<sup>th</sup> year Ph.D. Student in Information Science, advisor: Dr. Balaji Palanisamy. Ying's research interests include, but are not limited to: Data Privacy, Algorithmic Fairness, Network Science, Causal Reasoning.</p>",
+      "<p><b>Email: </b><a href=\"mailto:yis121@pitt.edu\">yis121@pitt.edu</a></p>",
+      "<p><b>Address: </b>IS Building, Room 410, 135 North Bellefield Ave., Pittsburgh, PA, USA</p>",
+      "<p><b> <a href=\"https://scholar.google.com/citations?user=zYtXExoAAAAJ&amp;hl=en\" rel=\"noopener noreferrer\" target=\"_blank\">Google Scholar</a></b></p>"
+    ]
+  },
+  {
+    "name": "Peilin He",
+    "group": "students",
+    "image": "images/peilin.jpg",
+    "links": [
+      {
+        "text": "peilin.he@pitt.edu",
+        "href": "mailto:peilin.he@pitt.edu"
+      },
+      {
+        "text": "Website",
+        "href": "https://sites.pitt.edu/~peh53/"
+      },
+      {
+        "text": "Google Scholar",
+        "href": "https://scholar.google.com/citations?user=Lh3NCZMAAAAJ&hl=en&oi=ao"
+      }
+    ],
+    "id": "peilin-he",
+    "role": "Ph.D. student",
+    "summary": "Differential privacy, machine learning, and trust and security in AI.",
+    "bio": [
+      "<p>Peilin is a 3<sup>rd</sup> year Ph.D. Student in Information Science, advisor: Dr. James Joshi. His research include but not limited to: Differential Privacy, Machine Learning, Trust and Privacy for Agentic-AI, Federated Learning, Riemannian Manifolds, Topological Analysis, etc..</p>",
+      "<p><b>Email: </b><a href=\"mailto:peilin.he@pitt.edu\">peilin.he@pitt.edu</a></p>",
+      "<p><b>Address: </b>IS Building, Room 410, 135 North Bellefield Ave., Pittsburgh, PA, USA</p>",
+      "<p><b> <a href=\"https://sites.pitt.edu/~peh53/\" rel=\"noopener noreferrer\" target=\"_blank\">Website</a>, <a href=\"https://scholar.google.com/citations?user=Lh3NCZMAAAAJ&amp;hl=en&amp;oi=ao\" rel=\"noopener noreferrer\" target=\"_blank\">Google Scholar</a> </b></p>"
+    ]
+  },
+  {
+    "name": "Yijun Yuan",
+    "group": "students",
+    "image": "images/yijun.jpg",
+    "links": [
+      {
+        "text": "yis121@pitt.edu",
+        "href": "mailto:yis121@pitt.edu"
+      },
+      {
+        "text": "Website",
+        "href": "https://odinyuan.github.io/"
+      }
+    ],
+    "id": "yijun-yuan",
+    "role": "Ph.D. student",
+    "summary": "Security and privacy in extended reality environments.",
+    "bio": [
+      "<p>Yijun is a 3<sup>rd</sup> year Ph.D. Student in Information Science, advisor: Dr. Balaji Palanisamy. His research interests are: security and privacy issues in XR environment, and he is aiming to improve the usability of current XR applications as well as solve some privacy concerns from users’ perspective. </p>",
+      "<p><b>Email: </b><a href=\"mailto:yis121@pitt.edu\">yis121@pitt.edu</a></p>",
+      "<p><b>Address: </b>IS Building, Room 410, 135 North Bellefield Ave., Pittsburgh, PA, USA</p>",
+      "<p><b> <a href=\"https://odinyuan.github.io/\" rel=\"noopener noreferrer\" target=\"_blank\">Website</a> </b></p>"
+    ]
+  },
+  {
+    "name": "Liou Tang",
+    "group": "students",
+    "image": "images/liou.jpg",
+    "links": [
+      {
+        "text": "liou.tang@pitt.edu",
+        "href": "mailto:liou.tang@pitt.edu"
+      },
+      {
+        "text": "Website",
+        "href": "https://lioutang.github.io/"
+      },
+      {
+        "text": "Google Scholar",
+        "href": "https://scholar.google.com/citations?user=FGul1WAAAAAJ&hl=en"
+      }
+    ],
+    "id": "liou-tang",
+    "role": "Ph.D. student",
+    "summary": "Privacy-preserving machine learning and cryptography.",
+    "bio": [
+      "<p>Liou is a 2<sup>nd</sup> year Ph.D. Student in Information Science, advisor: Dr. James Joshi. His research focus is on Privacy-Preserving Machine Learning (PPML) and Cryptography.</p>",
+      "<p><b>Email: </b><a href=\"mailto:liou.tang@pitt.edu\">liou.tang@pitt.edu</a></p>",
+      "<p><b>Address: </b>IS Building, Room 410, 135 North Bellefield Ave., Pittsburgh, PA, USA</p>",
+      "<p><b> <a href=\"https://lioutang.github.io/\" rel=\"noopener noreferrer\" target=\"_blank\">Website</a>, <a href=\"https://scholar.google.com/citations?user=FGul1WAAAAAJ&amp;hl=en\" rel=\"noopener noreferrer\" target=\"_blank\">Google Scholar</a> </b></p>"
+    ]
+  },
+  {
+    "name": "Runhua Xu",
+    "group": "alumni",
+    "image": "images/runhua.jpeg",
+    "links": [
+      {
+        "text": "Website",
+        "href": "https://runhua.me/"
+      },
+      {
+        "text": "Google Scholar",
+        "href": "https://scholar.google.com/citations?user=tst3wGMAAAAJ&hl=en"
+      }
+    ],
+    "id": "runhua-xu",
+    "role": "Ph.D. alumnus · Summer 2020",
+    "summary": "",
+    "bio": [
+      "<p>Runhua Xu (许,润华) is a Professor in the School of Computer Science and Engineering at Beihang University. Prior to that, he served as a Research Staff Member at IBM Research (AI S&amp;P Solutions team). He earned his Ph.D. in Information Security from the School of Computing and Information, University of Pittsburgh, under the guidance of IEEE Fellow, Prof. James Joshi. He also holds an M.S. in Computer Science from Beihang University, where he was advised by Prof. Bo Lang, and a B.E. in Software Engineering from NWPU. </p>",
+      "<p><b> <a href=\"https://runhua.me/\" rel=\"noopener noreferrer\" target=\"_blank\">Website</a>, <a href=\"https://scholar.google.com/citations?user=tst3wGMAAAAJ&amp;hl=en\" rel=\"noopener noreferrer\" target=\"_blank\">Google Scholar</a> </b></p>"
+    ]
+  },
+  {
+    "name": "Maryam Aldairi",
+    "group": "alumni",
+    "image": "images/maryam.png",
+    "links": [
+      {
+        "text": "Google Scholar",
+        "href": "https://scholar.google.com/citations?user=jw1CVg8AAAAJ&hl=en"
+      }
+    ],
+    "id": "maryam-aldairi",
+    "role": "Ph.D. alumnus · Summer 2025",
+    "summary": "",
+    "bio": [
+      "<p>A cybersecurity researcher and educator with a strong focus on Information Systems Security, Data Privacy, and Privacy Regulations, under the supervision of Dr. James JJoshi. I'm currently a Faculty Lecturer at King Faisal University. I hold a Ph.D. in Information Security at the University of Pittsburgh, where my research explores the intersection of machine learning, artificial intelligence, and data protection.</p>",
+      "<p><b> <a href=\"https://scholar.google.com/citations?user=jw1CVg8AAAAJ&amp;hl=en\" rel=\"noopener noreferrer\" target=\"_blank\">Google Scholar</a> </b></p>"
+    ]
+  },
+  {
+    "name": "Leila Karimi",
+    "group": "alumni",
+    "image": "images/leila.jpeg",
+    "links": [
+      {
+        "text": "Website",
+        "href": "https://www.linkedin.com/in/leila-karimi"
+      },
+      {
+        "text": "Google Scholar",
+        "href": "https://scholar.google.com/citations?user=G1sCb5YAAAAJ&hl=en"
+      }
+    ],
+    "id": "leila-karimi",
+    "role": "Ph.D. alumnus · Summer 2021",
+    "summary": "",
+    "bio": [
+      "<p>Current: Meta (Software Engineer); Previous: Datometry Inc. (Research Scientist in Cybersecurity), advisor: Dr. James Joshi</p>",
+      "<p><b> <a href=\"https://www.linkedin.com/in/leila-karimi\" rel=\"noopener noreferrer\" target=\"_blank\">Website</a>, <a href=\"https://scholar.google.com/citations?user=G1sCb5YAAAAJ&amp;hl=en\" rel=\"noopener noreferrer\" target=\"_blank\">Google Scholar</a> </b></p>"
+    ]
+  },
+  {
+    "name": "Chao Li",
+    "group": "alumni",
+    "image": "images/chaoli.jpeg",
+    "links": [
+      {
+        "text": "Website",
+        "href": "http://www.lichao.work/"
+      },
+      {
+        "text": "Google Scholar",
+        "href": "https://scholar.google.com/citations?hl=en&user=5FXndBwAAAAJ&view_op=list_works&sortby=pubdate"
+      }
+    ],
+    "id": "chao-li",
+    "role": "Ph.D. alumnus · Spring 2019",
+    "summary": "",
+    "bio": [
+      "<p>I am an Associate Professor in the School of Computer and Information Technology at Beijing Jiaotong University. My current research interests are focused on Blockchain and Data Privacy. I received my MSc degree from Imperial College London and my Ph.D. degree in Information Science from University of Pittsburgh, advisor: Dr. Balaji Palanisamy. </p>",
+      "<p><b> <a href=\"http://www.lichao.work/\" rel=\"noopener noreferrer\" target=\"_blank\">Website</a>, <a href=\"https://scholar.google.com/citations?hl=en&amp;user=5FXndBwAAAAJ&amp;view_op=list_works&amp;sortby=pubdate\" rel=\"noopener noreferrer\" target=\"_blank\">Google Scholar</a> </b></p>"
+    ]
+  },
+  {
+    "name": "Jinlai Xu",
+    "group": "alumni",
+    "image": "images/jinlai.jpg",
+    "links": [
+      {
+        "text": "Website",
+        "href": "https://jinlaixu.net/"
+      },
+      {
+        "text": "Google Scholar",
+        "href": "https://scholar.google.com/citations?hl=en&user=OQjl2aIAAAAJ&view_op=list_works"
+      }
+    ],
+    "id": "jinlai-xu",
+    "role": "Ph.D. alumnus · Summer 2021",
+    "summary": "",
+    "bio": [
+      "<p>Jinlai Xu is a Researcher/Engineer at Infrastructure System Lab of ByteDance US. He is currently working on cutting-edge technologies which will evolve the infrastructure to a new generation, including but not limited to Next Generation ML/Big Data infra, Graph Learning/Computing, Cloud Native &amp; Serverless Infra and Hyper-Scale Heterogeneous Cluster Management. He got his PhD from University of Pittsburgh in 2021. His research interests include Big Model Training/Inference/Finetune Framework, Serverless Computing, Distributed Systems, Fog/Edge and Cloud Computing, Stream Processing Optimization and Blockchain-based Techniques. His PhD advisor is Balaji Palanisamy. </p>",
+      "<p><b> <a href=\"https://jinlaixu.net/\" rel=\"noopener noreferrer\" target=\"_blank\">Website</a>, <a href=\"https://scholar.google.com/citations?hl=en&amp;user=OQjl2aIAAAAJ&amp;view_op=list_works\" rel=\"noopener noreferrer\" target=\"_blank\">Google Scholar</a> </b></p>"
+    ]
+  },
+  {
+    "name": "Nathalie Baracaldo",
+    "group": "alumni",
+    "image": "images/Nathalie-Baracaldo.png",
+    "links": [
+      {
+        "text": "Website",
+        "href": "https://research.ibm.com/people/nathalie-baracaldo-angel"
+      },
+      {
+        "text": "Google Scholar",
+        "href": "https://scholar.google.com/citations?hl=en&user=3ACndBYAAAAJ&view_op=list_works&sortby=pubdate"
+      }
+    ],
+    "id": "nathalie-baracaldo",
+    "role": "Ph.D. alumnus · Summer 2016",
+    "summary": "",
+    "bio": [
+      "<p>Nathalie Baracaldo leads the AI Security and Privacy Solutions team and is a Research Staff Member at IBM’s Almaden Research Center in San Jose, CA. Nathalie is passionate about delivering machine learning solutions that are highly accurate, withstand adversarial attacks and protect data privacy. Her team focuses on two main areas: federated learning, where models are trained without directly accessing training data and adversarial machine learning, where defenses are designed to withstand potential attacks to the machine learning pipeline </p>",
+      "<p> Nathalie received her Ph.D. degree from the University of Pittsburgh in 2016, advisor: Dr. James Joshi. Her dissertation focused on preventing insider threats through the use of adaptive access control systems that integrate multiple sources of contextual information. Some of the topics that she has explored in the past include secure storage systems, privacy in online social networks, secure interoperability in distributed systems, risk management and trust evaluation. During her Ph.D. studies she received the 2014 Allen Kent Award for Outstanding Contributions to the Graduate Program in Information Science by the School of Information Sciences at the University of Pittsburgh. </p>",
+      "<p><b> <a href=\"https://research.ibm.com/people/nathalie-baracaldo-angel\" rel=\"noopener noreferrer\" target=\"_blank\">Website</a>, <a href=\"https://scholar.google.com/citations?hl=en&amp;user=3ACndBYAAAAJ&amp;view_op=list_works&amp;sortby=pubdate\" rel=\"noopener noreferrer\" target=\"_blank\">Google Scholar</a> </b></p>"
+    ]
+  },
+  {
+    "name": "Amir Maxoumzadeh",
+    "group": "alumni",
+    "image": "images/amir.jpeg",
+    "links": [
+      {
+        "text": "Website",
+        "href": "https://www.albany.edu/computer-science/faculty/amir-masoumzadeh"
+      },
+      {
+        "text": "Google Scholar",
+        "href": "https://scholar.google.com/citations?user=Ld-xtdcAAAAJ&hl=en"
+      }
+    ],
+    "id": "amir-maxoumzadeh",
+    "role": "Ph.D. alumnus · Summer 2014",
+    "summary": "",
+    "bio": [
+      "<p>My research interests revolve around security, privacy, and trust in computing environments. Check out my research page and publications for more specific topics. I received my PhD in Information Science from the University of Pittsburgh, advisor: Dr. James Joshi, and my Master’s and Bachelor’s in Computer Science/Engineering from Sharif University of Technology and Ferdowsi University, respectively.</p>",
+      "<p><b> <a href=\"https://www.albany.edu/computer-science/faculty/amir-masoumzadeh\" rel=\"noopener noreferrer\" target=\"_blank\">Website</a>, <a href=\"https://scholar.google.com/citations?user=Ld-xtdcAAAAJ&amp;hl=en\" rel=\"noopener noreferrer\" target=\"_blank\">Google Scholar</a> </b></p>"
+    ]
+  },
+  {
+    "name": "Xuelian Long",
+    "group": "alumni",
+    "image": null,
+    "links": [],
+    "id": "xuelian-long",
+    "role": "Ph.D. alumnus · Summer 2015",
+    "summary": "",
+    "bio": [
+      "<p>Facebook Inc. (Interned at TripAdvisor), advisor: Dr. James Joshi.</p>"
+    ]
+  },
+  {
+    "name": "Saman Taghavi Zargar",
+    "group": "alumni",
+    "image": "images/saman.jpeg",
+    "links": [
+      {
+        "text": "Website",
+        "href": "https://www.linkedin.com/in/sam-t-zargar-ph-d-a20429b"
+      },
+      {
+        "text": "Google Scholar",
+        "href": "https://scholar.google.com/citations?hl=en&user=kg-C0HYAAAAJ&view_op=list_works"
+      }
+    ],
+    "id": "saman-taghavi-zargar",
+    "role": "Ph.D. alumnus · Summer 2014",
+    "summary": "",
+    "bio": [
+      "<p>Software Development Manager at Amazon EMR Spark; Previous: Cisco, Salesforce (Interned at Cisco twice), advisor: Dr. James Joshi.</p>",
+      "<p><b> <a href=\"https://www.linkedin.com/in/sam-t-zargar-ph-d-a20429b\" rel=\"noopener noreferrer\" target=\"_blank\">Website</a>, <a href=\"https://scholar.google.com/citations?hl=en&amp;user=kg-C0HYAAAAJ&amp;view_op=list_works\" rel=\"noopener noreferrer\" target=\"_blank\">Google Scholar</a> </b></p>"
+    ]
+  },
+  {
+    "name": "Daniel Takabi",
+    "group": "alumni",
+    "image": "images/daniel.jpeg",
+    "links": [
+      {
+        "text": "Website",
+        "href": "https://www.odu.edu/directory/daniel-takabi-0"
+      },
+      {
+        "text": "Google Scholar",
+        "href": "https://scholar.google.com/citations?user=8OTNELUAAAAJ&hl=en"
+      }
+    ],
+    "id": "daniel-takabi",
+    "role": "Ph.D. alumnus · Summer 2013",
+    "summary": "",
+    "bio": [
+      "<p>Takabi is director of ODU’s School of Cybersecurity, as well as the Batten Endowed Chair in Cybersecurity and professor of electrical and computer engineering. He received his Ph.D. from University of Pittsburgh and previously served as founding director of the Information Security and Privacy: Interdisciplinary Research and Education (INSPIRE) Center at Georgia State University, advisor: Dr. James Joshi.</p>",
+      "<p><b> <a href=\"https://www.odu.edu/directory/daniel-takabi-0\" rel=\"noopener noreferrer\" target=\"_blank\">Website</a>, <a href=\"https://scholar.google.com/citations?user=8OTNELUAAAAJ&amp;hl=en\" rel=\"noopener noreferrer\" target=\"_blank\">Google Scholar</a> </b></p>"
+    ]
+  },
+  {
+    "name": "Yue Zhang",
+    "group": "alumni",
+    "image": "images/yuezhang.jpeg",
+    "links": [
+      {
+        "text": "Website",
+        "href": "https://zysxqn.wordpress.com/"
+      },
+      {
+        "text": "Google Scholar",
+        "href": "https://scholar.google.com/citations?user=o0yhlXMAAAAJ&hl=en"
+      }
+    ],
+    "id": "yue-zhang",
+    "role": "Ph.D. alumnus · Summer 2010",
+    "summary": "",
+    "bio": [
+      "<p> Current: Senior Software Engineer, Yahoo; Previous: Google, Inc (Interned at IBM Watson), advisor: Dr. James Joshi.</p>",
+      "<p><b> <a href=\"https://zysxqn.wordpress.com/\" rel=\"noopener noreferrer\" target=\"_blank\">Website</a>, <a href=\"https://scholar.google.com/citations?user=o0yhlXMAAAAJ&amp;hl=en\" rel=\"noopener noreferrer\" target=\"_blank\">Google Scholar</a> </b></p>"
+    ]
+  }
+]
