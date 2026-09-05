@@ -8,26 +8,41 @@
       "designSystemPath": ".superdesign/design-system.md",
       "contextFiles": [
         ".superdesign/design-system.md",
+        ".superdesign/website/cylab.cmu.edu/content-structure.md",
+        "research.html",
         "index.html",
         "css/site.css",
         "js/site.js",
         "scripts/build_site.py"
       ],
       "fingerprints": {
-        ".superdesign/design-system.md": "06de5e46f4726de9a39708ce970c871741708cb4e06c1cb0addd4c70bd49ba53",
-        "index.html": "5b0e8f17540de4c1cc4fb72cdd09551e3efce0ea806488688d4902565ed39eb6",
-        "css/site.css": "6554ff63479b5bb32a9f2dd64555cd127bafc5173e82f5b69df495a0d38808bf",
-        "js/site.js": "6907f8f4698c9508dea5d09074618200b8e185a849903b13ea48e561da102398",
-        "scripts/build_site.py": "874d0f4bcbe9693b65b0ed9e0fc85d6bf56293fc8c4af521e3a8fb9bacd454bb"
+        ".superdesign/design-system.md": "b6e6161aae8d8e5e73ddec17b6a51deb7f7cfb1d2880299ff3d346b3417f7136",
+        ".superdesign/website/cylab.cmu.edu/content-structure.md": "35c511a91716196c4c56fe541611a6bf65fac8a85953610d986efa5ad706d81b",
+        "research.html": "67f925738b6a6ac82ecaf4ce24131e7288e5033c824501ec78b8886c51bdaf72",
+        "index.html": "dbcc327140420418abecbcc7741fea5cb6810d472ce7dfc3f4e7683cafd56d55",
+        "css/site.css": "da45596326b26d654926e5396f2409a439fbf885fd3ed217b54e9e6e140bb690",
+        "js/site.js": "cda739514e20f313746952d9ab25e920a9bbb4b499ba26c309bef0c059469280",
+        "scripts/build_site.py": "3d4279eeb7976b2cd12f76e107e920a271f8d8d8128e41aa88a7f54215560630"
+      },
+      "referenceIds": [
+        "7ef870d9-0ea7-4cec-b493-eaa7f1881274",
+        "images-pitt-logo-blue.svg"
+      ],
+      "brandAssets": {
+        "logo": {
+          "assetKey": "images-pitt-logo-blue.svg",
+          "url": "https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/projects/8ad28290-9b19-42bf-9171-94bd40dec506/brand-assets/images-pitt-logo-blue.svg/pitt-logo-blue.svg",
+          "sourcePath": "images/pitt-logo-blue.svg"
+        }
       },
       "drafts": {
         "a0ab9103-fc95-43ed-906f-067278c51351": {
-          "title": "LERSAIS \u2014 White canvas & local search",
-          "visualDirection": "True white, no background images, OpenAI-inspired typography, local keyword search",
-          "currentVersion": 2
+          "title": "LERSAIS — Institutional Research Homepage",
+          "visualDirection": "CyLab-inspired institutional structure with an announcement bar, mission hero, editorial news rows, three complete research-area columns, and a deep Pitt-blue community section.",
+          "currentVersion": 5
         }
       },
-      "updatedAt": "2026-09-04T00:05:57.949365+00:00"
+      "updatedAt": "2026-09-05T00:41:00.000000+00:00"
     }
   }
 }

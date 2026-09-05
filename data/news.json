@@ -1,5 +1,41 @@
 [
   {
+    "title": "11th IEEE International Conference on Collaboration and Internet Computing",
+    "url": "https://cic.ieee-cs.org/2025/",
+    "date": "November 11–14, 2025",
+    "image": "images/events/cic-2025.jpg",
+    "body": "IEEE CIC has been conceived as the key multidisciplinary venue to serve as a premier international forum for discussion among academic and industrial researchers, practitioners, and students interested in Internet technologies, applications and services, collaborative networking, technology and systems, and applications.",
+    "id": "cic-2025",
+    "category": "conference",
+    "iso_date": "2025-11-11",
+    "headline": "IEEE CIC 2025",
+    "image_source": "https://cic.ieee-cs.org/2025/"
+  },
+  {
+    "title": "7th IEEE International Conference on Trust, Privacy and Security in Intelligent Systems, and Applications",
+    "url": "https://tps.ieee-cs.org/2025/",
+    "date": "November 11–14, 2025",
+    "image": "images/events/tps-2025.jpg",
+    "body": "IEEE TPS-ISA is an international multidisciplinary forum for presentation of state-of-the art innovations, and discussion among academic, industrial researchers, and practitioners on issues related to trust, privacy and security in emerging smart and intelligent systems and applications.",
+    "id": "tps-2025",
+    "category": "conference",
+    "iso_date": "2025-11-11",
+    "headline": "IEEE TPS 2025",
+    "image_source": "https://tps.ieee-cs.org/2025/"
+  },
+  {
+    "title": "7th IEEE International Conference on Cognitive Machine Intelligence",
+    "url": "https://cogmi.ieee-cs.org/2025/",
+    "date": "November 11–14, 2025",
+    "image": "images/events/cogmi-2025.jpg",
+    "body": "The cognitive machine intelligence (CogMI) is creating unprecedented opportunities for impactful scientific innovations and societal transformations by significantly augmenting the human ability for problem solving and rapid decision making in terms of speed, precision and variety, while fostering innovations in all our human endeavors.",
+    "id": "cogmi-2025",
+    "category": "conference",
+    "iso_date": "2025-11-11",
+    "headline": "IEEE CogMI 2025",
+    "image_source": "https://cogmi.ieee-cs.org/2025/"
+  },
+  {
     "title": "Distinguished LERSAIS and Pitt Cyber Seminar",
     "url": "https://www.lersais.pitt.edu/distinguished-lersais-seminar-series",
     "date": "Mar. 13, 2025",
@@ -11,37 +47,40 @@
     "headline": "Privacy-preserving federated learning"
   },
   {
-    "title": "The 10 th IEEE International Conference on Collaboration and Internet Computing",
-    "url": "https://www.sis.pitt.edu/lersais/conference/cic/2024/index.html",
-    "date": "Oct. 30, 2024",
-    "image": "thumbs/cic.png",
-    "body": "IEEE CIC has been conceived as the key multidisciplinary venue to serve as a premier international forum for discussion among academic and industrial researchers, practitioners, and students interested in Internet technologies, applications and services, collaborative networking, technology and systems, and applications.",
+    "title": "10th IEEE International Conference on Collaboration and Internet Computing",
+    "url": "https://cic.ieee-cs.org/2024/",
+    "date": "October 28–30, 2024",
+    "image": "images/events/cic-2024.jpg",
+    "body": "Held at The Darcy Hotel in Washington, D.C. Collaboration technologies, Internet computing, and connected systems across organizations and disciplines.",
     "id": "cic-2024",
     "category": "conference",
-    "iso_date": "2024-10-30",
-    "headline": "IEEE Collaboration and Internet Computing"
+    "iso_date": "2024-10-28",
+    "headline": "IEEE CIC 2024",
+    "image_source": "https://cic.ieee-cs.org/2024/"
   },
   {
-    "title": "The 6 th IEEE Conference on Trust, Privacy and Security in Intelligent Systems",
-    "url": "https://www.sis.pitt.edu/lersais/conference/tps/2024/index.html",
-    "date": "Oct. 30, 2024",
-    "image": "thumbs/tps.png",
-    "body": "IEEE TPS-ISA is an international multidisciplinary forum for presentation of state-of-the art innovations, and discussion among academic, industrial researchers, and practitioners on issues related to trust, privacy and security in emerging smart and intelligent systems and applications.",
+    "title": "6th IEEE International Conference on Trust, Privacy and Security in Intelligent Systems, and Applications",
+    "url": "https://tps.ieee-cs.org/2024/",
+    "date": "October 28–30, 2024",
+    "image": "images/events/tps-2024.jpg",
+    "body": "Held at The Darcy Hotel in Washington, D.C. Trust, privacy, and security in intelligent systems, with research spanning AI, IoT, and emerging computing platforms.",
     "id": "tps-2024",
     "category": "conference",
-    "iso_date": "2024-10-30",
-    "headline": "Trust, Privacy and Security in Intelligent Systems"
+    "iso_date": "2024-10-28",
+    "headline": "IEEE TPS 2024",
+    "image_source": "https://tps.ieee-cs.org/2024/"
   },
   {
-    "title": "The 6 th IEEE Conference on Cognitive Machine Intelligence",
-    "url": "https://www.sis.pitt.edu/lersais/conference/cogmi/2024/index.html",
-    "date": "Oct. 30, 2024",
-    "image": "thumbs/cogmi.png",
-    "body": "The cognitive machine intelligence (CogMI) is creating unprecedented opportunities for impactful scientific innovations and societal transformations by significantly augmenting the human ability for problem solving and rapid decision making in terms of speed, precision and variety, while fostering innovations in all our human endeavors.",
+    "title": "6th IEEE International Conference on Cognitive Machine Intelligence",
+    "url": "https://cogmi.ieee-cs.org/2024/",
+    "date": "October 28–30, 2024",
+    "image": "images/events/cogmi-2024.jpg",
+    "body": "Held at The Darcy Hotel in Washington, D.C. Cognitive machine intelligence and its foundations, exploring how AI supports human problem solving and decision making.",
     "id": "cogmi-2024",
     "category": "conference",
-    "iso_date": "2024-10-30",
-    "headline": "IEEE Cognitive Machine Intelligence"
+    "iso_date": "2024-10-28",
+    "headline": "IEEE CogMI 2024",
+    "image_source": "https://cogmi.ieee-cs.org/2024/"
   },
   {
     "title": "Distinguished LERSAIS and Pitt Cyber Seminar",

@@ -252,34 +252,6 @@
     ]
   },
   {
-    "name": "Konstantinos Pelechrinis",
-    "group": "faculty",
-    "image": "images/kpelechrinis.jpg",
-    "links": [
-      {
-        "text": "kpele@pitt.edu",
-        "href": "mailto:kpele@pitt.edu"
-      },
-      {
-        "text": "CV",
-        "href": "https://sites.pitt.edu/~kpele/"
-      },
-      {
-        "text": "Google Scholar",
-        "href": "https://scholar.google.com/citations?user=mVj8o7gAAAAJ&hl=en"
-      }
-    ],
-    "id": "konstantinos-pelechrinis",
-    "role": "Associate Professor, Computing & Information",
-    "summary": "Network science and network data research.",
-    "bio": [
-      "<p>My name is Konstantinos Pelechrinis and I joined the University of Pittsburgh in Fall 2010, where I am an Associate Professor at the School of Computing and Information and I lead the Network Data Science Lab. Prior I received my Phd degree from the Computer Science department at the University of California at Riverside, under the supervision of Prof. Srikanth V. Krishnamurthy. Before joining UCR, I obtained my Diploma degree from the Electrical and Computer Engineering department of the National Techincal University of Athens, where I worked with Prof. Vasileios Maglaris at the Network Management and Optimal Design Laboratory. </p>",
-      "<p><b>Email: </b><a href=\"mailto:kpele@pitt.edu\">kpele@pitt.edu</a></p>",
-      "<p><b>Address: </b>Information Science Building, Room 717B</p>",
-      "<p><b><a href=\"https://sites.pitt.edu/~kpele/\">CV</a>, <a href=\"https://scholar.google.com/citations?user=mVj8o7gAAAAJ&amp;hl=en\" rel=\"noopener noreferrer\" target=\"_blank\">Google Scholar</a></b></p>"
-    ]
-  },
-  {
     "name": "M. Amin Rahimian",
     "group": "faculty",
     "image": "images/amin.jpeg",
@@ -365,36 +337,71 @@
     ]
   },
   {
-    "name": "Vladimir Zadorozhny",
+    "name": "Adam J. Lee",
     "group": "faculty",
-    "image": "images/zadorozhny.jpg",
+    "image": "images/adam-j-lee.png",
+    "source_url": "https://www.sci.pitt.edu/people/adam-j-lee",
     "links": [
       {
-        "text": "viz@pitt.edu",
-        "href": "mailto:viz@pitt.edu"
+        "text": "adamlee@cs.pitt.edu",
+        "href": "mailto:adamlee@cs.pitt.edu"
       },
       {
-        "text": "CV",
-        "href": "https://sites.pitt.edu/~viz//"
+        "text": "Official profile",
+        "href": "https://www.sci.pitt.edu/people/adam-j-lee"
+      },
+      {
+        "text": "Personal website",
+        "href": "http://www.cs.pitt.edu/~adamlee"
       },
       {
         "text": "Google Scholar",
-        "href": "https://scholar.google.com/citations?user=fv1GAB8AAAAJ&hl=en"
+        "href": "https://scholar.google.com/citations?user=1IoFK0oAAAAJ&hl=en"
       }
     ],
-    "id": "vladimir-zadorozhny",
-    "role": "Professor, Informatics & Networked Systems",
-    "summary": "Information systems, data, and biomedical informatics.",
+    "id": "adam-j-lee",
+    "role": "Professor, Computer Science · Vice Provost for Undergraduate Studies",
+    "summary": "Computer security, privacy, distributed systems, and privacy-aware IoT and sensing systems.",
     "bio": [
-      "<p>Vladimir Zadorozhny is a Professor in DINS and also a Core Faculty Member at the University of Pittsburgh Biomedical Informatics Training Program and Adjunct Professor at Faculty of Engineering and Science of the University of Agder. He received his Ph.D. in 1993 from the Institute for Problems of Informatics, Russian Academy of Sciences in Moscow.</p>",
-      "<p><b>Email: </b><a href=\"mailto:viz@pitt.edu\">viz@pitt.edu</a></p>",
-      "<p><b>Address: </b>Information Science Building, Room 706 B</p>",
-      "<p><b><a href=\"https://sites.pitt.edu/~viz//\">CV</a>, <a href=\"https://scholar.google.com/citations?user=fv1GAB8AAAAJ&amp;hl=en\" rel=\"noopener noreferrer\" target=\"_blank\">Google Scholar</a></b></p>"
+      "<p>Adam J. Lee is a professor in Pitt’s Department of Computer Science and serves as Vice Provost for Undergraduate Studies. He joined Pitt in 2008 after completing his Ph.D. at the University of Illinois at Urbana-Champaign.</p>",
+      "<p>His work examines secure collaboration between systems governed by different security policies, with an emphasis on individual privacy and autonomy. He also studies privacy perceptions and the trade-offs between privacy and functionality in IoT and sensing technologies. He received an NSF CAREER award in 2013.</p>",
+      "<p><b>Email: </b><a href=\"mailto:adamlee@cs.pitt.edu\">adamlee@cs.pitt.edu</a></p>",
+      "<p><b>Office: </b>Sennott Square 6111</p>",
+      "<p><a href=\"https://www.sci.pitt.edu/people/adam-j-lee\" rel=\"noopener noreferrer\" target=\"_blank\">Official profile</a> · <a href=\"http://www.cs.pitt.edu/~adamlee\" rel=\"noopener noreferrer\" target=\"_blank\">Personal website</a> · <a href=\"https://scholar.google.com/citations?user=1IoFK0oAAAAJ&amp;hl=en\" rel=\"noopener noreferrer\" target=\"_blank\">Google Scholar</a></p>"
+    ]
+  },
+  {
+    "name": "Robert Cunningham",
+    "group": "faculty",
+    "image": "images/robert-cunningham.jpg",
+    "source_url": "https://www.engineering.pitt.edu/people/faculty/robert-cunningham/",
+    "links": [
+      {
+        "text": "robertkcunningham@pitt.edu",
+        "href": "mailto:robertkcunningham@pitt.edu"
+      },
+      {
+        "text": "Official profile",
+        "href": "https://www.engineering.pitt.edu/people/faculty/robert-cunningham/"
+      },
+      {
+        "text": "Google Scholar",
+        "href": "https://scholar.google.com/citations?user=VhBfy5MAAAAJ&hl=en&oi=ao"
+      }
+    ],
+    "id": "robert-cunningham",
+    "role": "Vice Chancellor for Research Infrastructure",
+    "summary": "Machine learning, intrusion detection, systems security and privacy, and satellite systems.",
+    "bio": [
+      "<p>Robert Cunningham serves as Pitt’s Vice Chancellor for Research Infrastructure, overseeing university research platforms and special initiatives. His faculty profile is listed in Electrical and Computer Engineering at the Swanson School of Engineering.</p>",
+      "<p>His research spans machine learning, image processing, intrusion detection, security and privacy, and software engineering, including applications to satellites and satellite constellations. An IEEE Fellow, he has chaired the IEEE Cybersecurity Initiative. He earned his Ph.D. in Cognitive and Neural Systems from Boston University.</p>",
+      "<p><b>Email: </b><a href=\"mailto:robertkcunningham@pitt.edu\">robertkcunningham@pitt.edu</a></p>",
+      "<p><a href=\"https://www.engineering.pitt.edu/people/faculty/robert-cunningham/\" rel=\"noopener noreferrer\" target=\"_blank\">Official profile</a> · <a href=\"https://scholar.google.com/citations?user=VhBfy5MAAAAJ&amp;hl=en&amp;oi=ao\" rel=\"noopener noreferrer\" target=\"_blank\">Google Scholar</a></p>"
     ]
   },
   {
     "name": "Jingzhe Wang",
-    "group": "students",
+    "group": "alumnus",
     "image": "images/WechatIMG458.jpg",
     "links": [
       {
@@ -403,10 +410,10 @@
       }
     ],
     "id": "jingzhe-wang",
-    "role": "Ph.D. student",
+    "role": "Ph.D. alumnus",
     "summary": "Distributed systems, cloud computing, and research with Balaji Palanisamy.",
     "bio": [
-      "<p>Jingzhe is a 6<sup>th</sup> year Ph.D. Candidate in Information Science, advisor: Dr. Balaji Palanisamy. His research interests include, but are not limited to: Distributed System, Information Security &amp; Privacy, Blockchain.</p>",
+      "<p>Jingzhe earned his Ph.D. in Information Science under the supervision of Dr. Balaji Palanisamy. His research interests include distributed systems, information security and privacy, and blockchain.</p>",
       "<p><b>Email: </b><a href=\"mailto:jiw148@pitt.edu\">jiw148@pitt.edu</a></p>",
       "<p><b>Address: </b>IS Building, Room 410, 135 North Bellefield Ave., Pittsburgh, PA, USA</p>"
     ]
@@ -429,7 +436,7 @@
     "role": "Ph.D. student",
     "summary": "Metaverse, digital twins, and research with Balaji Palanisamy.",
     "bio": [
-      "<p>Abdulrahman is a 4<sup>th</sup> year Ph.D. Student in Information Science, advisor: Dr. Balaji Palanisamy. His research interests include, but are not limited to: Metaverse &amp; Digital Twins, Data Security, Blockchain, Integer Factorization.</p>",
+      "<p>Abdulrahman is a 5<sup>th</sup> year Ph.D. Student in Information Science, advisor: Dr. Balaji Palanisamy. His research interests include, but are not limited to: Metaverse &amp; Digital Twins, Data Security, Blockchain, Integer Factorization.</p>",
       "<p><b>Email: </b><a href=\"mailto:aba70@pitt.edu\">aba70@pitt.edu</a></p>",
       "<p><b>Address: </b>IS Building, Room 410, 135 North Bellefield Ave., Pittsburgh, PA, USA</p>",
       "<p><b> <a href=\"https://scholar.google.com/citations?user=LnaoAaQAAAAJ&amp;hl=en&amp;oi=ao\" rel=\"noopener noreferrer\" target=\"_blank\">Google Scholar</a></b></p>"
@@ -453,7 +460,7 @@
     "role": "Ph.D. student",
     "summary": "Data privacy and research with Balaji Palanisamy.",
     "bio": [
-      "<p>Ying is a 4<sup>th</sup> year Ph.D. Student in Information Science, advisor: Dr. Balaji Palanisamy. Ying's research interests include, but are not limited to: Data Privacy, Algorithmic Fairness, Network Science, Causal Reasoning.</p>",
+      "<p>Ying is a 5<sup>th</sup> year Ph.D. Student in Information Science, advisor: Dr. Balaji Palanisamy. Ying's research interests include, but are not limited to: Data Privacy, Algorithmic Fairness, Network Science, Causal Reasoning.</p>",
       "<p><b>Email: </b><a href=\"mailto:yis121@pitt.edu\">yis121@pitt.edu</a></p>",
       "<p><b>Address: </b>IS Building, Room 410, 135 North Bellefield Ave., Pittsburgh, PA, USA</p>",
       "<p><b> <a href=\"https://scholar.google.com/citations?user=zYtXExoAAAAJ&amp;hl=en\" rel=\"noopener noreferrer\" target=\"_blank\">Google Scholar</a></b></p>"
@@ -479,9 +486,9 @@
     ],
     "id": "peilin-he",
     "role": "Ph.D. student",
-    "summary": "Differential privacy, machine learning, and trust and security in AI.",
+    "summary": "Differential privacy, LLM post-training, and privacy-preserving federated learning.",
     "bio": [
-      "<p>Peilin is a 3<sup>rd</sup> year Ph.D. Student in Information Science, advisor: Dr. James Joshi. His research include but not limited to: Differential Privacy, Machine Learning, Trust and Privacy for Agentic-AI, Federated Learning, Riemannian Manifolds, Topological Analysis, etc..</p>",
+      "<p>Peilin is a 4<sup>th</sup> year Ph.D. Student in Information Science, advisor: Dr. James Joshi. His research include but not limited to: Differential Privacy, Machine Learning, Trust and Privacy for Agentic-AI, Federated Learning, Riemannian Manifolds, Topological Analysis, etc..</p>",
       "<p><b>Email: </b><a href=\"mailto:peilin.he@pitt.edu\">peilin.he@pitt.edu</a></p>",
       "<p><b>Address: </b>IS Building, Room 410, 135 North Bellefield Ave., Pittsburgh, PA, USA</p>",
       "<p><b> <a href=\"https://sites.pitt.edu/~peh53/\" rel=\"noopener noreferrer\" target=\"_blank\">Website</a>, <a href=\"https://scholar.google.com/citations?user=Lh3NCZMAAAAJ&amp;hl=en&amp;oi=ao\" rel=\"noopener noreferrer\" target=\"_blank\">Google Scholar</a> </b></p>"
@@ -505,7 +512,7 @@
     "role": "Ph.D. student",
     "summary": "Security and privacy in extended reality environments.",
     "bio": [
-      "<p>Yijun is a 3<sup>rd</sup> year Ph.D. Student in Information Science, advisor: Dr. Balaji Palanisamy. His research interests are: security and privacy issues in XR environment, and he is aiming to improve the usability of current XR applications as well as solve some privacy concerns from users’ perspective. </p>",
+      "<p>Yijun is a 4<sup>th</sup> year Ph.D. Student in Information Science, advisor: Dr. Balaji Palanisamy. His research interests are: security and privacy issues in XR environment, and he is aiming to improve the usability of current XR applications as well as solve some privacy concerns from users’ perspective. </p>",
       "<p><b>Email: </b><a href=\"mailto:yis121@pitt.edu\">yis121@pitt.edu</a></p>",
       "<p><b>Address: </b>IS Building, Room 410, 135 North Bellefield Ave., Pittsburgh, PA, USA</p>",
       "<p><b> <a href=\"https://odinyuan.github.io/\" rel=\"noopener noreferrer\" target=\"_blank\">Website</a> </b></p>"
@@ -533,15 +540,39 @@
     "role": "Ph.D. student",
     "summary": "Privacy-preserving machine learning and cryptography.",
     "bio": [
-      "<p>Liou is a 2<sup>nd</sup> year Ph.D. Student in Information Science, advisor: Dr. James Joshi. His research focus is on Privacy-Preserving Machine Learning (PPML) and Cryptography.</p>",
+      "<p>Liou is a 3<sup>rd</sup> year Ph.D. Student in Information Science, advisor: Dr. James Joshi. His research focus is on Privacy-Preserving Machine Learning (PPML) and Cryptography.</p>",
       "<p><b>Email: </b><a href=\"mailto:liou.tang@pitt.edu\">liou.tang@pitt.edu</a></p>",
       "<p><b>Address: </b>IS Building, Room 410, 135 North Bellefield Ave., Pittsburgh, PA, USA</p>",
       "<p><b> <a href=\"https://lioutang.github.io/\" rel=\"noopener noreferrer\" target=\"_blank\">Website</a>, <a href=\"https://scholar.google.com/citations?user=FGul1WAAAAAJ&amp;hl=en\" rel=\"noopener noreferrer\" target=\"_blank\">Google Scholar</a> </b></p>"
     ]
   },
   {
+    "name": "Meruyert Karzhaubayeva",
+    "group": "students",
+    "image": "images/meruyert.jpg",
+    "links": [
+      {
+        "text": "mek503@pitt.edu",
+        "href": "mailto:mek503@pitt.edu"
+      },
+      {
+        "text": "Google Scholar",
+        "href": "https://scholar.google.com/citations?hl=en&user=O2YwvPcAAAAJ&view_op=list_works&gmla=AKCpqFwtaUQZcWZaBjP3g9szfzxoNgCWS6hEMPzcMWtRY66D10rtlh4azHqkKRl_RJTsBDCGbC3-o-gY-uqV1UR-"
+      }
+    ],
+    "id": "meruyert-karzhaubayeva",
+    "role": "Ph.D. student",
+    "summary": "AI lifecycle cybersecurity assurance, agentic AI governance, and trustworthy AI.",
+    "bio": [
+      "<p>Meruyert is a 1<sup>st</sup>-year Ph.D. student in Information Science; advisor: Dr. James Joshi. Her research interests are AI Lifecycle Cybersecurity Assurance, Agentic AI Governance, and Trustworthy AI.</p>",
+      "<p><b>Email: </b><a href=\"mailto:mek503@pitt.edu\">mek503@pitt.edu</a></p>",
+      "<p><b>Address: </b>IS Building, Room 410, 135 North Bellefield Ave., Pittsburgh, PA, USA</p>",
+      "<p><b><a href=\"https://scholar.google.com/citations?hl=en&amp;user=O2YwvPcAAAAJ&amp;view_op=list_works&amp;gmla=AKCpqFwtaUQZcWZaBjP3g9szfzxoNgCWS6hEMPzcMWtRY66D10rtlh4azHqkKRl_RJTsBDCGbC3-o-gY-uqV1UR-\" rel=\"noopener noreferrer\" target=\"_blank\">Google Scholar</a></b></p>"
+    ]
+  },
+  {
     "name": "Runhua Xu",
-    "group": "alumni",
+    "group": "alumnus",
     "image": "images/runhua.jpeg",
     "links": [
       {
@@ -563,7 +594,7 @@
   },
   {
     "name": "Maryam Aldairi",
-    "group": "alumni",
+    "group": "alumnus",
     "image": "images/maryam.png",
     "links": [
       {
@@ -581,7 +612,7 @@
   },
   {
     "name": "Leila Karimi",
-    "group": "alumni",
+    "group": "alumnus",
     "image": "images/leila.jpeg",
     "links": [
       {
@@ -603,7 +634,7 @@
   },
   {
     "name": "Chao Li",
-    "group": "alumni",
+    "group": "alumnus",
     "image": "images/chaoli.jpeg",
     "links": [
       {
@@ -625,7 +656,7 @@
   },
   {
     "name": "Jinlai Xu",
-    "group": "alumni",
+    "group": "alumnus",
     "image": "images/jinlai.jpg",
     "links": [
       {
@@ -647,7 +678,7 @@
   },
   {
     "name": "Nathalie Baracaldo",
-    "group": "alumni",
+    "group": "alumnus",
     "image": "images/Nathalie-Baracaldo.png",
     "links": [
       {
@@ -670,7 +701,7 @@
   },
   {
     "name": "Amir Maxoumzadeh",
-    "group": "alumni",
+    "group": "alumnus",
     "image": "images/amir.jpeg",
     "links": [
       {
@@ -692,7 +723,7 @@
   },
   {
     "name": "Xuelian Long",
-    "group": "alumni",
+    "group": "alumnus",
     "image": null,
     "links": [],
     "id": "xuelian-long",
@@ -704,7 +735,7 @@
   },
   {
     "name": "Saman Taghavi Zargar",
-    "group": "alumni",
+    "group": "alumnus",
     "image": "images/saman.jpeg",
     "links": [
       {
@@ -726,7 +757,7 @@
   },
   {
     "name": "Daniel Takabi",
-    "group": "alumni",
+    "group": "alumnus",
     "image": "images/daniel.jpeg",
     "links": [
       {
@@ -748,7 +779,7 @@
   },
   {
     "name": "Yue Zhang",
-    "group": "alumni",
+    "group": "alumnus",
     "image": "images/yuezhang.jpeg",
     "links": [
       {

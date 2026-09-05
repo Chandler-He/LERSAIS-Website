@@ -1,2 +1,6 @@
 .superdesign/tmp/
+.superdesign/website/*/brand.json
+.superdesign/website/*/brand/
+.superdesign/website/*/clone/
+scripts/__pycache__/
 .DS_Store

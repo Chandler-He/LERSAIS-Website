@@ -1,0 +1,139 @@
+{
+  "researcher": "James Joshi",
+  "source_url": "https://www.sis.pitt.edu/jjoshi/CV.pdf#page=6",
+  "reviewed_on": "2026-09-03",
+  "grants": [
+    {
+      "id": "cisco-quantum-machine-learning",
+      "title": "Quantum Secure and Privacy-preserving Machine Learning in Hybrid Environments",
+      "sponsor": "Cisco",
+      "program": "Research Grant",
+      "role": "Principal investigator",
+      "amount": "Approx. $75,000",
+      "period": "Sep 26, 2025 – Sep 13, 2026",
+      "category": "recent",
+      "status": "Active",
+      "note": ""
+    },
+    {
+      "id": "cisco-machine-unlearning",
+      "title": "Towards Holistic Framework for Secure and Privacy-preserving Machine Unlearning",
+      "sponsor": "Cisco",
+      "program": "Research Grant",
+      "role": "Principal investigator",
+      "amount": "$75,000",
+      "period": "Jan – Nov 2025; NCE",
+      "category": "recent",
+      "status": "Extension noted",
+      "note": "The CV notes a no-cost extension (NCE); a revised end date is not listed."
+    },
+    {
+      "id": "shure-grid-2024",
+      "title": "Summer Honors Undergraduate Research Experience in Electric Grid (SHURE-Grid)",
+      "sponsor": "University of Pittsburgh",
+      "program": "SHURE-Grid",
+      "role": "Co-PI / participant",
+      "amount": "Not listed in CV",
+      "period": "Summer 2024",
+      "category": "past",
+      "status": "Past",
+      "note": "Summer research program at the University of Pittsburgh. The CV does not name the funding agency."
+    },
+    {
+      "id": "nsf-cybertraining",
+      "title": "CyberTraining: CDL: Security-Assured Data Science Workforce Development in Pennsylvania",
+      "sponsor": "National Science Foundation",
+      "program": "OAC · CyberTraining",
+      "role": "Co-principal investigator",
+      "amount": "$499,952",
+      "period": "2017 – 2020",
+      "category": "past",
+      "status": "Past",
+      "note": ""
+    },
+    {
+      "id": "nsf-sac-pa",
+      "title": "SAC-PA: Towards Security Assured Cyberinfrastructure in Pennsylvania",
+      "sponsor": "National Science Foundation",
+      "program": "CICI",
+      "role": "Principal investigator",
+      "amount": "$499,951",
+      "period": "2016 – 2018",
+      "category": "past",
+      "status": "Past",
+      "note": ""
+    },
+    {
+      "id": "nsf-health-informatics",
+      "title": "A Curriculum for Security Assured Health Informatics",
+      "sponsor": "National Science Foundation",
+      "program": "DGE · SFS Capacity",
+      "role": "Principal investigator",
+      "amount": "$897,055",
+      "period": "2014 – 2017; extended to 2018",
+      "category": "past",
+      "status": "Past",
+      "note": ""
+    },
+    {
+      "id": "nsa-insider-threat",
+      "title": "Towards Insider Threat Assessment and Mitigation",
+      "sponsor": "National Security Agency",
+      "program": "CAE Cybersecurity Grant",
+      "role": "Principal investigator",
+      "amount": "$264,553",
+      "period": "2014 – 2015",
+      "category": "past",
+      "status": "Past",
+      "note": ""
+    },
+    {
+      "id": "cisco-dicotram",
+      "title": "DiCoTraM: Towards a Distributed Collaborative Traffic Monitoring System",
+      "sponsor": "Cisco",
+      "program": "Research Grant",
+      "role": "Principal investigator",
+      "amount": "$54,034",
+      "period": "2012 – 2013",
+      "category": "past",
+      "status": "Past",
+      "note": ""
+    },
+    {
+      "id": "nsf-sfs-round-two",
+      "title": "A Scholarship Program for Security Assured Information Systems Track",
+      "sponsor": "National Science Foundation",
+      "program": "Federal Cyber Service · Round 2",
+      "role": "Principal investigator",
+      "amount": "$1,326,071",
+      "period": "2011 – 2014",
+      "category": "past",
+      "status": "Past",
+      "note": ""
+    },
+    {
+      "id": "nsf-career-access-control",
+      "title": "A Trust-based Access Control Management Framework for Secure Information Sharing and Multimedia Workflows in Heterogeneous Environments",
+      "sponsor": "National Science Foundation",
+      "program": "CAREER",
+      "role": "Principal investigator",
+      "amount": "$416,419",
+      "period": "2006 – 2011",
+      "category": "past",
+      "status": "Past",
+      "note": ""
+    },
+    {
+      "id": "nsf-sfs-round-one",
+      "title": "A Scholarship Program for Security Assured Information Systems Track",
+      "sponsor": "National Science Foundation",
+      "program": "Federal Cyber Service · Round 1",
+      "role": "Principal investigator",
+      "amount": "$1,055,553",
+      "period": "2006 – 2011",
+      "category": "past",
+      "status": "Past",
+      "note": ""
+    }
+  ]
+}
