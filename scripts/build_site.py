@@ -11,7 +11,6 @@ ROOT = Path(__file__).resolve().parent.parent
 STYLESHEET = 'css/site.css?v=' + sha256((ROOT / 'css/site.css').read_bytes()).hexdigest()[:12]
 PEOPLE = json.loads((ROOT / 'data/people.json').read_text())
 NEWS = json.loads((ROOT / 'data/news.json').read_text())
-EVENTS = json.loads((ROOT / 'data/events.json').read_text())
 GRANTS = json.loads((ROOT / 'data/grants.json').read_text())
 IMAGE_SIZES = json.loads((ROOT / 'data/image-sizes.json').read_text())
 ARROW = '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg>'
@@ -59,19 +58,13 @@ def footer():
 </div></footer>'''
 
 
-def research_announcement():
-    calendar = '''<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 3v3m10-3v3M4 9h16M5 5h14a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Z"/></svg>'''
-    return f'''<aside class="research-announcement" aria-label="Upcoming conferences"><a href="news.html#upcoming-events">{calendar}<span>Upcoming: IEEE CIC, TPS, CogMI, and RISC</span><span aria-hidden="true">·</span><span>November 4–6, 2026</span><span aria-hidden="true">·</span><span>San Jose, California</span></a></aside>'''
-
-
 def page(slug, title, description, content):
-    announcement = research_announcement() if slug == 'research' else ''
     html = f'''<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{escape(title)} | LERSAIS · University of Pittsburgh</title><meta name="description" content="{escape(description, quote=True)}">
 <meta name="theme-color" content="#ffffff"><link rel="icon" href="images/pitt-logo-blue.svg" type="image/svg+xml">
 <link rel="stylesheet" href="{STYLESHEET}"><script src="js/site.js" defer></script></head>
-<body class="page-{slug}">{announcement}{header(slug)}<main id="main" tabindex="-1">{content}</main>{footer()}</body></html>'''
+<body class="page-{slug}">{header(slug)}<main id="main" tabindex="-1">{content}</main>{footer()}</body></html>'''
     (ROOT / f'{slug}.html').write_text(size_images(html) + '\n')
 
 
@@ -110,7 +103,8 @@ def person_card(p):
     if p['image']:
         # Refresh cached portraits when a photo is replaced under the same filename.
         version = sha256((ROOT / p['image']).read_bytes()).hexdigest()[:12]
-        image = f'<img src="{escape(p["image"], quote=True)}?v={version}" alt="{escape(p["name"], quote=True)}" loading="lazy" width="600" height="420">'
+        style = f' style="{escape(p["image_style"], quote=True)}"' if p.get('image_style') else ''
+        image = f'<img src="{escape(p["image"], quote=True)}?v={version}" alt="{escape(p["name"], quote=True)}"{style} loading="lazy" width="600" height="420">'
     else:
         image = f'<div class="portrait-placeholder" aria-label="No portrait available">{"".join(w[0] for w in p["name"].split()[:2])}</div>'
     bio = ''.join(p['bio'])
@@ -129,7 +123,7 @@ def people():
 def research():
     body = f'''<section class="research-hero wrap" aria-labelledby="lab-heading"><div class="research-hero-title"><p class="section-label">University of Pittsburgh · School of Computing and Information</p><h1 id="lab-heading">Privacy.<br>Security.<br>AI.</h1></div><aside class="research-hero-context" aria-label="About LERSAIS"><h2>Laboratory for Education and Research on Security Assured Information Systems</h2><p>LERSAIS studies the foundations and applications of secure information systems, privacy-preserving computation, and trustworthy artificial intelligence.</p><div>{link('people.html', 'People')}{link('grants.html', 'Research grants')}</div></aside></section>
 <section class="research-news wrap" aria-labelledby="research-news-heading"><div class="research-band-heading"><div><p class="section-label">Latest from the lab</p><h2 id="research-news-heading">News &amp; events</h2></div>{link('news.html', 'All news &amp; events')}</div><div class="research-news-list">
-<article class="research-news-row"><div class="research-news-meta"><time datetime="2026-11-04">November 4–6, 2026</time><span>San Jose, California</span></div><h3>Four co-located IEEE conferences in security, trust, intelligence, and resilient systems.</h3><div class="research-news-summary"><p>Explore each upcoming conference.</p><div class="research-event-links">{''.join(link('news.html#'+event['id'], escape(event['name'])) for event in EVENTS)}</div></div></article>
+<article class="research-news-row"><div class="research-news-meta"><time datetime="2026-11-04">November 4–6, 2026</time><span>San Jose, California</span></div><h3>Four co-located IEEE conferences in security, trust, intelligence, and resilient systems.</h3><div class="research-news-summary"><p>Explore each conference.</p><div class="research-event-links">{''.join(link('news.html#'+n['id'], escape(n['headline'])) for n in NEWS if n['iso_date'] == '2026-11-04')}</div></div></article>
 </div></section>
 <section class="research-areas-band" aria-labelledby="research-areas-heading"><div class="wrap"><div class="research-areas-heading"><div><p class="section-label">Three connected areas of inquiry</p><h2 id="research-areas-heading">Research areas</h2></div><p>Foundational and applied research across intelligent systems, privacy-conscious computation, and secure information access.</p></div><div class="research-area-columns">'''
     for i, (id, title, desc, text, topics, researchers) in enumerate(AREAS):
@@ -144,17 +138,19 @@ def grants():
     reviewed = date.fromisoformat(GRANTS['reviewed_on'])
     reviewed_label = f'{reviewed:%B} {reviewed.day}, {reviewed.year}'
     body = heading('Research grants.', 'Active and selected past awards supporting James Joshi’s research in security, privacy, and trustworthy information systems.')
-    body += f'''<div class="wrap grants-intro"><p>Grant record based on James Joshi’s curriculum vitae.<br>Amounts and project periods appear as reported in the source.</p><div>{link('people.html#james-joshi', 'James Joshi')}{link(GRANTS['source_url'], 'Curriculum vitae', external=True)}</div></div>
+    body += f'''<div class="wrap grants-intro"><p>Grant record based on James Joshi’s curriculum vitae and NSF award records.<br>Amounts and project periods appear as reported in the source.</p><div>{link('people.html#james-joshi', 'James Joshi')}{link(GRANTS['source_url'], 'Curriculum vitae', external=True)}</div></div>
 <div class="wrap filter-scope grants-content" data-filter-scope>'''
     body += filters([('all', 'All grants'), ('recent', 'Active & recent'), ('past', 'Past grants')], 'Search grants', 'Filter grants')
     body += f'''<p class="grants-reviewed">Record reviewed <time datetime="{GRANTS["reviewed_on"]}">{reviewed_label}</time></p>'''
-    for category, title, description in [('recent', 'Active & recent grants', 'Current research support and awards with an extension noted in the CV.'), ('past', 'Past grants', 'Selected awards from earlier research and education projects.')]:
+    for category, title, description in [('recent', 'Active & recent grants', 'Current research support.'), ('past', 'Past grants', 'Selected awards from earlier research and education projects.')]:
         category_count = sum(grant['category'] == category for grant in GRANTS['grants'])
         body += f'<section class="grant-section" id="{category}-grants" data-result-group><div class="grant-section-heading"><div><p class="grant-section-number">{category_count:02}</p><h2>{title}</h2></div><p>{description}</p></div>'
         for grant in GRANTS['grants']:
             if grant['category'] != category:
                 continue
             note = f'<p class="grant-note">{escape(grant["note"])}</p>' if grant['note'] else ''
+            if grant.get('source_url'):
+                note += link(grant['source_url'], 'Award record', external=True)
             status_class = ' grant-status-active' if grant['status'] == 'Active' else ''
             status = f'<span class="grant-status{status_class}">{escape(grant["status"])}</span>' if category == 'recent' else ''
             body += f'''<article class="grant-row" id="{grant['id']}" data-filter-item data-category="{category}"><div class="grant-overview"><p class="grant-meta">{status}<span>{escape(grant['sponsor'])} · {escape(grant['program'])}</span></p><h3>{escape(grant['title'])}</h3>{note}</div><dl class="grant-facts"><div><dt>Funding</dt><dd>{escape(grant['amount'])}</dd></div><div><dt>Project period</dt><dd>{escape(grant['period'])}</dd></div><div><dt>James Joshi’s role</dt><dd>{escape(grant['role'])}</dd></div></dl></article>'''
@@ -172,11 +168,7 @@ def grants():
 def news():
     body = heading('News & ideas.', 'Research conversations, community milestones,<br class="desktop-break"> and education beyond the lab.')
     body += '<div class="wrap filter-scope" data-filter-scope>' + filters([('all','All updates'),('seminar','Seminars'),('conference','Conferences'),('education','Education')], 'Search news and events', 'Filter news and events')
-    body += '''<section class="upcoming-events" id="upcoming-events" data-result-group aria-labelledby="upcoming-heading"><div class="events-heading"><h2 id="upcoming-heading">Upcoming events</h2><p>Four co-located IEEE conferences<br>San Jose, California · Embassy Suites by Hilton Milpitas Silicon Valley</p></div><div class="events-list">'''
-    for event in EVENTS:
-        body += f'''<article class="news-story event-card" id="{event['id']}" data-filter-item data-category="conference"><div class="news-story-image"><img src="{escape(event['image'], quote=True)}" alt="{escape(event['image_alt'], quote=True)}" loading="lazy"></div><div><p class="meta">Conference <span>·</span> <time datetime="{event['start_date']}">{escape(event['date'])}</time></p><h3>{escape(event['name'])}</h3><p class="story-title">{escape(event['title'])}</p>{link(event['url'], 'Visit conference<span class="sr-only">: '+escape(event['name'])+'</span>', external=True)}</div></article>'''
-    body += '</div></section>'
-    body += '<section data-result-group aria-labelledby="past-updates-heading"><h2 id="past-updates-heading">Past updates</h2><div class="news-list">'
+    body += '<section class="past-updates" data-result-group aria-labelledby="past-updates-heading"><h2 id="past-updates-heading">Past updates</h2><div class="news-list">'
     for n in NEWS:
         body += f'''<article class="news-story" id="{n['id']}" data-filter-item data-category="{n['category']}"><div class="news-story-image"><img src="{n['image']}" alt="{escape(n['title'], quote=True)}" loading="lazy" width="640" height="400"></div><div><p class="meta">{n['category'].title()} <span>·</span> <time datetime="{n['iso_date']}">{n['date']}</time></p><h2>{escape(n['headline'])}</h2><p class="story-title">{escape(n['title'])}</p><p>{escape(n['body'])}</p>{link(n['url'], 'Read the original story' if n['category']!='conference' else 'Visit conference', external=True)}</div></article>'''
     body += '</div></section></div>' + cta()
@@ -195,7 +187,7 @@ def teaching():
 
 
 def gallery():
-    photographs = [('images/lersais1.jpg','The LERSAIS community','Researchers and colleagues together at Pitt.'), ('images/cathey.jpg','A place for discovery','University of Pittsburgh campus.'), ('images/joshi.jpeg','Ideas in conversation','Sharing research with the wider community.')]
+    photographs = [('images/lersais1.jpg','The LERSAIS community','Researchers and colleagues together at Pitt.'), ('images/cathey.jpg','A place for discovery','University of Pittsburgh campus.'), ('images/joshi.jpeg','Ideas in conversation','Sharing research with the wider community.'), ('images/events/conference-2026-executive-chairs.jpg','Four conferences, together','Executive co-chairs introduced at IEEE CIC, CogMI, RISC, and TPS 2026.'), ('images/events/conference-2026-cic-chairs.jpg','IEEE CIC 2026','General and program committee co-chairs introduced in San Jose.'), ('images/events/conference-2026-risc-chairs.jpg','IEEE RISC 2026','General and program committee co-chairs of the first conference.'), ('images/events/conference-2026-looking-ahead.jpg','Looking ahead to 2027','Announcing the next conference leadership.')]
     body = heading('Life at LERSAIS.', 'The people, places, and conversations<br class="desktop-break"> that bring our work to life.') + '<div class="wrap gallery-grid">'
     for src, title, caption in photographs:
         body += f'''<figure><a class="gallery-open" href="{src}" data-gallery-image data-caption="{escape(title+'. '+caption, quote=True)}"><img src="{src}" alt="{escape(title+'. '+caption, quote=True)}" loading="lazy"><span class="gallery-expand" aria-hidden="true">{EXTERNAL}</span></a><figcaption><h2>{title}</h2><p>{caption}</p></figcaption></figure>'''
@@ -220,11 +212,9 @@ def search_index():
         entries.append(dict(title=title, category='Research', url='research.html#'+id, description=description, text=content+' '+' '.join(topics)))
     for n in NEWS:
         entries.append(dict(title=n['headline'], category=n['category'].title(), url='news.html#'+n['id'], description=n['title'], text=n['body']))
-    for event in EVENTS:
-        entries.append(dict(title=event['name'], category='Events', url='news.html#'+event['id'], description=event['title'], text=event['date']+' San Jose, California Embassy Suites by Hilton Milpitas Silicon Valley'))
     for grant in GRANTS['grants']:
         entries.append(dict(title=grant['title'], category='Grants', url='grants.html#'+grant['id'], description=f'{grant["sponsor"]} · {grant["period"]} · {grant["status"]}', text='James Joshi '+ ' '.join(grant[key] for key in ['program', 'role', 'amount', 'note'])))
-    for slug, title, description in [('research','LERSAIS research homepage','About the lab, research areas, researchers, education, and upcoming events.'), ('teaching','Education at LERSAIS','Security and information assurance programs, doctoral research, and GenCyber outreach.'), ('contact','Contact LERSAIS','Get in touch with James Joshi or find our lab at the University of Pittsburgh.'), ('gallery','Life at LERSAIS','Our campus, researchers, and community.'), ('grants','James Joshi’s research grants','Active, recent, and past research funding from Cisco, NSF, and NSA.')]:
+    for slug, title, description in [('research','LERSAIS research homepage','About the lab, research areas, researchers, education, and news.'), ('teaching','Education at LERSAIS','Security and information assurance programs, doctoral research, and GenCyber outreach.'), ('contact','Contact LERSAIS','Get in touch with James Joshi or find our lab at the University of Pittsburgh.'), ('gallery','Life at LERSAIS','Our campus, researchers, and community.'), ('grants','James Joshi’s research grants','Active, recent, and past research funding from Cisco, NSF, and NSA.')]:
         html = (ROOT / (slug+'.html')).read_text().split('<main',1)[1].split('</main>',1)[0]
         entries.append(dict(title=title, category='Page', url=slug+'.html', description=description, text=plain(html)))
     (ROOT/'data/search-index.json').write_text(json.dumps(entries, ensure_ascii=False, separators=(',',':'))+'\n')

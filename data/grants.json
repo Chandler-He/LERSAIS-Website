@@ -4,6 +4,19 @@
   "reviewed_on": "2026-09-03",
   "grants": [
     {
+      "id": "nsf-eager-machine-unlearning",
+      "title": "EAGER: Trustworthy and Verifiable Machine Unlearning in an Adversarial Environment",
+      "sponsor": "National Science Foundation",
+      "program": "SaTC · EAGER",
+      "role": "Principal investigator",
+      "amount": "$299,572",
+      "period": "Oct 1, 2026 – Sep 30, 2028",
+      "category": "recent",
+      "status": "Active",
+      "note": "NSF Award #2624954. Funding and project period follow the NSF award record.",
+      "source_url": "https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2624954"
+    },
+    {
       "id": "cisco-quantum-machine-learning",
       "title": "Quantum Secure and Privacy-preserving Machine Learning in Hybrid Environments",
       "sponsor": "Cisco",
@@ -11,8 +24,8 @@
       "role": "Principal investigator",
       "amount": "Approx. $75,000",
       "period": "Sep 26, 2025 – Sep 13, 2026",
-      "category": "recent",
-      "status": "Active",
+      "category": "past",
+      "status": "Past",
       "note": ""
     },
     {
@@ -23,8 +36,8 @@
       "role": "Principal investigator",
       "amount": "$75,000",
       "period": "Jan – Nov 2025; NCE",
-      "category": "recent",
-      "status": "Extension noted",
+      "category": "past",
+      "status": "Past",
       "note": "The CV notes a no-cost extension (NCE); a revised end date is not listed."
     },
     {

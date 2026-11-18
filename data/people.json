@@ -87,6 +87,7 @@
     "name": "Mai Abdelhakim",
     "group": "faculty",
     "image": "images/mai.png",
+    "image_style": "transform: translate(-7.5%, -5%) scale(1.15)",
     "links": [
       {
         "text": "MAIA@pitt.edu",
@@ -400,27 +401,8 @@
     ]
   },
   {
-    "name": "Jingzhe Wang",
-    "group": "alumnus",
-    "image": "images/WechatIMG458.jpg",
-    "links": [
-      {
-        "text": "jiw148@pitt.edu",
-        "href": "mailto:jiw148@pitt.edu"
-      }
-    ],
-    "id": "jingzhe-wang",
-    "role": "Ph.D. alumnus",
-    "summary": "Distributed systems, cloud computing, and research with Balaji Palanisamy.",
-    "bio": [
-      "<p>Jingzhe earned his Ph.D. in Information Science under the supervision of Dr. Balaji Palanisamy. His research interests include distributed systems, information security and privacy, and blockchain.</p>",
-      "<p><b>Email: </b><a href=\"mailto:jiw148@pitt.edu\">jiw148@pitt.edu</a></p>",
-      "<p><b>Address: </b>IS Building, Room 410, 135 North Bellefield Ave., Pittsburgh, PA, USA</p>"
-    ]
-  },
-  {
     "name": "Abdulrahman Alhaidari",
-    "group": "students",
+    "group": "alumnus",
     "image": "images/Abdulrahman.png",
     "links": [
       {
@@ -433,10 +415,10 @@
       }
     ],
     "id": "abdulrahman-alhaidari",
-    "role": "Ph.D. student",
+    "role": "Ph.D. alumnus · Winter 2026",
     "summary": "Metaverse, digital twins, and research with Balaji Palanisamy.",
     "bio": [
-      "<p>Abdulrahman is a 5<sup>th</sup> year Ph.D. Student in Information Science, advisor: Dr. Balaji Palanisamy. His research interests include, but are not limited to: Metaverse &amp; Digital Twins, Data Security, Blockchain, Integer Factorization.</p>",
+      "<p>Ph.D. in Information Science, University of Pittsburgh, December 2026; advisor: Dr. Balaji Palanisamy. His research interests include, but are not limited to: Metaverse &amp; Digital Twins, Data Security, Blockchain, Integer Factorization.</p>",
       "<p><b>Email: </b><a href=\"mailto:aba70@pitt.edu\">aba70@pitt.edu</a></p>",
       "<p><b>Address: </b>IS Building, Room 410, 135 North Bellefield Ave., Pittsburgh, PA, USA</p>",
       "<p><b> <a href=\"https://scholar.google.com/citations?user=LnaoAaQAAAAJ&amp;hl=en&amp;oi=ao\" rel=\"noopener noreferrer\" target=\"_blank\">Google Scholar</a></b></p>"
@@ -444,8 +426,9 @@
   },
   {
     "name": "Ying Song",
-    "group": "students",
+    "group": "alumnus",
     "image": "images/songying.png",
+    "image_style": "transform: translate(-58%, -34%) scale(2)",
     "links": [
       {
         "text": "yis121@pitt.edu",
@@ -457,19 +440,38 @@
       }
     ],
     "id": "ying-song",
-    "role": "Ph.D. student",
+    "role": "Ph.D. alumnus · Winter 2026",
     "summary": "Data privacy and research with Balaji Palanisamy.",
     "bio": [
-      "<p>Ying is a 5<sup>th</sup> year Ph.D. Student in Information Science, advisor: Dr. Balaji Palanisamy. Ying's research interests include, but are not limited to: Data Privacy, Algorithmic Fairness, Network Science, Causal Reasoning.</p>",
+      "<p>Ph.D. in Information Science, University of Pittsburgh, December 2026; advisor: Dr. Balaji Palanisamy. Ying's research interests include, but are not limited to: Data Privacy, Algorithmic Fairness, Network Science, Causal Reasoning.</p>",
       "<p><b>Email: </b><a href=\"mailto:yis121@pitt.edu\">yis121@pitt.edu</a></p>",
       "<p><b>Address: </b>IS Building, Room 410, 135 North Bellefield Ave., Pittsburgh, PA, USA</p>",
       "<p><b> <a href=\"https://scholar.google.com/citations?user=zYtXExoAAAAJ&amp;hl=en\" rel=\"noopener noreferrer\" target=\"_blank\">Google Scholar</a></b></p>"
     ]
   },
   {
+    "name": "Jingzhe Wang",
+    "group": "alumnus",
+    "image": "images/WechatIMG458.jpg",
+    "links": [
+      {
+        "text": "jiw148@pitt.edu",
+        "href": "mailto:jiw148@pitt.edu"
+      }
+    ],
+    "id": "jingzhe-wang",
+    "role": "Ph.D. alumnus · Summer 2026",
+    "summary": "Distributed systems, cloud computing, and research with Balaji Palanisamy.",
+    "bio": [
+      "<p>Jingzhe earned his Ph.D. in Information Science under the supervision of Dr. Balaji Palanisamy. His research interests include distributed systems, information security and privacy, and blockchain.</p>",
+      "<p><b>Email: </b><a href=\"mailto:jiw148@pitt.edu\">jiw148@pitt.edu</a></p>",
+      "<p><b>Address: </b>IS Building, Room 410, 135 North Bellefield Ave., Pittsburgh, PA, USA</p>"
+    ]
+  },
+  {
     "name": "Peilin He",
     "group": "students",
-    "image": "images/peilin.jpg",
+    "image": "images/peilin-portrait.jpg",
     "links": [
       {
         "text": "peilin.he@pitt.edu",
@@ -500,12 +502,16 @@
     "image": "images/yijun.jpg",
     "links": [
       {
-        "text": "yis121@pitt.edu",
-        "href": "mailto:yis121@pitt.edu"
+        "text": "yiy95@pitt.edu",
+        "href": "mailto:yiy95@pitt.edu"
       },
       {
         "text": "Website",
         "href": "https://odinyuan.github.io/"
+      },
+      {
+        "text": "Google Scholar",
+        "href": "https://scholar.google.com/citations?user=Ik9oU-4AAAAJ&hl=en"
       }
     ],
     "id": "yijun-yuan",
@@ -513,9 +519,9 @@
     "summary": "Security and privacy in extended reality environments.",
     "bio": [
       "<p>Yijun is a 4<sup>th</sup> year Ph.D. Student in Information Science, advisor: Dr. Balaji Palanisamy. His research interests are: security and privacy issues in XR environment, and he is aiming to improve the usability of current XR applications as well as solve some privacy concerns from users’ perspective. </p>",
-      "<p><b>Email: </b><a href=\"mailto:yis121@pitt.edu\">yis121@pitt.edu</a></p>",
+      "<p><b>Email: </b><a href=\"mailto:yiy95@pitt.edu\">yiy95@pitt.edu</a></p>",
       "<p><b>Address: </b>IS Building, Room 410, 135 North Bellefield Ave., Pittsburgh, PA, USA</p>",
-      "<p><b> <a href=\"https://odinyuan.github.io/\" rel=\"noopener noreferrer\" target=\"_blank\">Website</a> </b></p>"
+      "<p><b> <a href=\"https://odinyuan.github.io/\" rel=\"noopener noreferrer\" target=\"_blank\">Website</a>, <a href=\"https://scholar.google.com/citations?user=Ik9oU-4AAAAJ&amp;hl=en\" rel=\"noopener noreferrer\" target=\"_blank\">Google Scholar</a> </b></p>"
     ]
   },
   {
@@ -550,6 +556,7 @@
     "name": "Meruyert Karzhaubayeva",
     "group": "students",
     "image": "images/meruyert.jpg",
+    "image_style": "transform: translate(-28%, -6%) scale(1.7)",
     "links": [
       {
         "text": "mek503@pitt.edu",
@@ -568,28 +575,6 @@
       "<p><b>Email: </b><a href=\"mailto:mek503@pitt.edu\">mek503@pitt.edu</a></p>",
       "<p><b>Address: </b>IS Building, Room 410, 135 North Bellefield Ave., Pittsburgh, PA, USA</p>",
       "<p><b><a href=\"https://scholar.google.com/citations?hl=en&amp;user=O2YwvPcAAAAJ&amp;view_op=list_works&amp;gmla=AKCpqFwtaUQZcWZaBjP3g9szfzxoNgCWS6hEMPzcMWtRY66D10rtlh4azHqkKRl_RJTsBDCGbC3-o-gY-uqV1UR-\" rel=\"noopener noreferrer\" target=\"_blank\">Google Scholar</a></b></p>"
-    ]
-  },
-  {
-    "name": "Runhua Xu",
-    "group": "alumnus",
-    "image": "images/runhua.jpeg",
-    "links": [
-      {
-        "text": "Website",
-        "href": "https://runhua.me/"
-      },
-      {
-        "text": "Google Scholar",
-        "href": "https://scholar.google.com/citations?user=tst3wGMAAAAJ&hl=en"
-      }
-    ],
-    "id": "runhua-xu",
-    "role": "Ph.D. alumnus · Summer 2020",
-    "summary": "",
-    "bio": [
-      "<p>Runhua Xu (许,润华) is a Professor in the School of Computer Science and Engineering at Beihang University. Prior to that, he served as a Research Staff Member at IBM Research (AI S&amp;P Solutions team). He earned his Ph.D. in Information Security from the School of Computing and Information, University of Pittsburgh, under the guidance of IEEE Fellow, Prof. James Joshi. He also holds an M.S. in Computer Science from Beihang University, where he was advised by Prof. Bo Lang, and a B.E. in Software Engineering from NWPU. </p>",
-      "<p><b> <a href=\"https://runhua.me/\" rel=\"noopener noreferrer\" target=\"_blank\">Website</a>, <a href=\"https://scholar.google.com/citations?user=tst3wGMAAAAJ&amp;hl=en\" rel=\"noopener noreferrer\" target=\"_blank\">Google Scholar</a> </b></p>"
     ]
   },
   {
@@ -633,28 +618,6 @@
     ]
   },
   {
-    "name": "Chao Li",
-    "group": "alumnus",
-    "image": "images/chaoli.jpeg",
-    "links": [
-      {
-        "text": "Website",
-        "href": "http://www.lichao.work/"
-      },
-      {
-        "text": "Google Scholar",
-        "href": "https://scholar.google.com/citations?hl=en&user=5FXndBwAAAAJ&view_op=list_works&sortby=pubdate"
-      }
-    ],
-    "id": "chao-li",
-    "role": "Ph.D. alumnus · Spring 2019",
-    "summary": "",
-    "bio": [
-      "<p>I am an Associate Professor in the School of Computer and Information Technology at Beijing Jiaotong University. My current research interests are focused on Blockchain and Data Privacy. I received my MSc degree from Imperial College London and my Ph.D. degree in Information Science from University of Pittsburgh, advisor: Dr. Balaji Palanisamy. </p>",
-      "<p><b> <a href=\"http://www.lichao.work/\" rel=\"noopener noreferrer\" target=\"_blank\">Website</a>, <a href=\"https://scholar.google.com/citations?hl=en&amp;user=5FXndBwAAAAJ&amp;view_op=list_works&amp;sortby=pubdate\" rel=\"noopener noreferrer\" target=\"_blank\">Google Scholar</a> </b></p>"
-    ]
-  },
-  {
     "name": "Jinlai Xu",
     "group": "alumnus",
     "image": "images/jinlai.jpg",
@@ -674,6 +637,50 @@
     "bio": [
       "<p>Jinlai Xu is a Researcher/Engineer at Infrastructure System Lab of ByteDance US. He is currently working on cutting-edge technologies which will evolve the infrastructure to a new generation, including but not limited to Next Generation ML/Big Data infra, Graph Learning/Computing, Cloud Native &amp; Serverless Infra and Hyper-Scale Heterogeneous Cluster Management. He got his PhD from University of Pittsburgh in 2021. His research interests include Big Model Training/Inference/Finetune Framework, Serverless Computing, Distributed Systems, Fog/Edge and Cloud Computing, Stream Processing Optimization and Blockchain-based Techniques. His PhD advisor is Balaji Palanisamy. </p>",
       "<p><b> <a href=\"https://jinlaixu.net/\" rel=\"noopener noreferrer\" target=\"_blank\">Website</a>, <a href=\"https://scholar.google.com/citations?hl=en&amp;user=OQjl2aIAAAAJ&amp;view_op=list_works\" rel=\"noopener noreferrer\" target=\"_blank\">Google Scholar</a> </b></p>"
+    ]
+  },
+  {
+    "name": "Runhua Xu",
+    "group": "alumnus",
+    "image": "images/runhua.jpeg",
+    "links": [
+      {
+        "text": "Website",
+        "href": "https://runhua.me/"
+      },
+      {
+        "text": "Google Scholar",
+        "href": "https://scholar.google.com/citations?user=tst3wGMAAAAJ&hl=en"
+      }
+    ],
+    "id": "runhua-xu",
+    "role": "Ph.D. alumnus · Summer 2020",
+    "summary": "",
+    "bio": [
+      "<p>Runhua Xu (许,润华) is a Professor in the School of Computer Science and Engineering at Beihang University. Prior to that, he served as a Research Staff Member at IBM Research (AI S&amp;P Solutions team). He earned his Ph.D. in Information Security from the School of Computing and Information, University of Pittsburgh, under the guidance of IEEE Fellow, Prof. James Joshi. He also holds an M.S. in Computer Science from Beihang University, where he was advised by Prof. Bo Lang, and a B.E. in Software Engineering from NWPU. </p>",
+      "<p><b> <a href=\"https://runhua.me/\" rel=\"noopener noreferrer\" target=\"_blank\">Website</a>, <a href=\"https://scholar.google.com/citations?user=tst3wGMAAAAJ&amp;hl=en\" rel=\"noopener noreferrer\" target=\"_blank\">Google Scholar</a> </b></p>"
+    ]
+  },
+  {
+    "name": "Chao Li",
+    "group": "alumnus",
+    "image": "images/chaoli.jpeg",
+    "links": [
+      {
+        "text": "Website",
+        "href": "http://www.lichao.work/"
+      },
+      {
+        "text": "Google Scholar",
+        "href": "https://scholar.google.com/citations?hl=en&user=5FXndBwAAAAJ&view_op=list_works&sortby=pubdate"
+      }
+    ],
+    "id": "chao-li",
+    "role": "Ph.D. alumnus · Spring 2019",
+    "summary": "",
+    "bio": [
+      "<p>I am an Associate Professor in the School of Computer and Information Technology at Beijing Jiaotong University. My current research interests are focused on Blockchain and Data Privacy. I received my MSc degree from Imperial College London and my Ph.D. degree in Information Science from University of Pittsburgh, advisor: Dr. Balaji Palanisamy. </p>",
+      "<p><b> <a href=\"http://www.lichao.work/\" rel=\"noopener noreferrer\" target=\"_blank\">Website</a>, <a href=\"https://scholar.google.com/citations?hl=en&amp;user=5FXndBwAAAAJ&amp;view_op=list_works&amp;sortby=pubdate\" rel=\"noopener noreferrer\" target=\"_blank\">Google Scholar</a> </b></p>"
     ]
   },
   {
@@ -700,6 +707,18 @@
     ]
   },
   {
+    "name": "Xuelian Long",
+    "group": "alumnus",
+    "image": null,
+    "links": [],
+    "id": "xuelian-long",
+    "role": "Ph.D. alumnus · Summer 2015",
+    "summary": "",
+    "bio": [
+      "<p>Facebook Inc. (Interned at TripAdvisor), advisor: Dr. James Joshi.</p>"
+    ]
+  },
+  {
     "name": "Amir Maxoumzadeh",
     "group": "alumnus",
     "image": "images/amir.jpeg",
@@ -722,21 +741,10 @@
     ]
   },
   {
-    "name": "Xuelian Long",
-    "group": "alumnus",
-    "image": null,
-    "links": [],
-    "id": "xuelian-long",
-    "role": "Ph.D. alumnus · Summer 2015",
-    "summary": "",
-    "bio": [
-      "<p>Facebook Inc. (Interned at TripAdvisor), advisor: Dr. James Joshi.</p>"
-    ]
-  },
-  {
     "name": "Saman Taghavi Zargar",
     "group": "alumnus",
     "image": "images/saman.jpeg",
+    "image_style": "transform: translate(-24%, 0) scale(1.4)",
     "links": [
       {
         "text": "Website",
@@ -781,6 +789,7 @@
     "name": "Yue Zhang",
     "group": "alumnus",
     "image": "images/yuezhang.jpeg",
+    "image_style": "transform: translate(-20%, -23%) scale(1.7)",
     "links": [
       {
         "text": "Website",

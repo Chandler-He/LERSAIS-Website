@@ -1,5 +1,53 @@
 [
   {
+    "title": "12th IEEE International Conference on Collaboration and Internet Computing",
+    "url": "https://cic.ieee-cs.org/2026/",
+    "date": "November 4–6, 2026",
+    "image": "images/events/cic-2026.jpg",
+    "body": "Held in San Jose, California, at Embassy Suites by Hilton Milpitas Silicon Valley. Collaboration technologies, Internet computing, and connected systems across organizations and disciplines.",
+    "id": "cic-2026",
+    "category": "conference",
+    "iso_date": "2026-11-04",
+    "headline": "IEEE CIC 2026",
+    "image_source": "https://cic.ieee-cs.org/2026/"
+  },
+  {
+    "title": "8th IEEE International Conference on Trust, Privacy and Security in Intelligent Systems and Applications",
+    "url": "https://tps.ieee-cs.org/2026/",
+    "date": "November 4–6, 2026",
+    "image": "images/events/tps-2026.jpg",
+    "body": "Held in San Jose, California, at Embassy Suites by Hilton Milpitas Silicon Valley. Trust, privacy, and security in intelligent systems, with research spanning AI, IoT, and emerging computing platforms.",
+    "id": "tps-2026",
+    "category": "conference",
+    "iso_date": "2026-11-04",
+    "headline": "IEEE TPS 2026",
+    "image_source": "https://tps.ieee-cs.org/2026/"
+  },
+  {
+    "title": "8th IEEE International Conference on Cognitive Machine Intelligence",
+    "url": "https://cogmi.ieee-cs.org/2026/",
+    "date": "November 4–6, 2026",
+    "image": "images/events/cogmi-2026.jpg",
+    "body": "Held in San Jose, California, at Embassy Suites by Hilton Milpitas Silicon Valley. Cognitive machine intelligence and its foundations, exploring how AI supports human problem solving and decision making.",
+    "id": "cogmi-2026",
+    "category": "conference",
+    "iso_date": "2026-11-04",
+    "headline": "IEEE CogMI 2026",
+    "image_source": "https://cogmi.ieee-cs.org/2026/"
+  },
+  {
+    "title": "1st IEEE International Conference on Resilience and Integrated Security for Space and Critical Systems",
+    "url": "https://risc.ieee-cs.org/2026/",
+    "date": "November 4–6, 2026",
+    "image": "images/events/risc-2026.jpg",
+    "body": "Held in San Jose, California, at Embassy Suites by Hilton Milpitas Silicon Valley. The first edition of the conference, focused on resilience and integrated security for space and critical systems.",
+    "id": "risc-2026",
+    "category": "conference",
+    "iso_date": "2026-11-04",
+    "headline": "IEEE RISC 2026",
+    "image_source": "https://risc.ieee-cs.org/2026/"
+  },
+  {
     "title": "11th IEEE International Conference on Collaboration and Internet Computing",
     "url": "https://cic.ieee-cs.org/2025/",
     "date": "November 11–14, 2025",
